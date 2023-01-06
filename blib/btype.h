@@ -116,11 +116,6 @@ static void type_name##_initialize(){                               \
     INFO_PRINT(#TypeName" inicializado\n");                            \
 }   
 
-#define B_IMPLEMENT_INTERFACE(iface_type, init_fcn)\
-{\
-    b_type_interface_add(iface_type,type_id,(void (*)(void*))init_fcn);\
-}
-
 #define B_IMPLEMENT_INTERFACES(...)         \
 {\
     b_type_add_interfaces(type_id, __VA_ARGS__, NULL);\
@@ -158,11 +153,6 @@ bType b_type_register(
 int b_type_private_add(
     bType type,
     bSize private_size
-    );
-int b_type_interface_add(
-    bType iface_type,
-    bType type,
-    void (*iface_initialize)(void*)
     );
 
 void * b_type_class_get(bType type);

@@ -29,11 +29,6 @@ typedef struct IFaceList{
     int count;
 }IFaceList;
 
-static IFaceList* i_face_list_create( void );
-static void i_face_list_add(IFaceList*, bType type, void *iface);
-static void * i_face_list_get_iface(IFaceList*, bType type);
-
-
 typedef struct{
     bType type_id;
     bType parent_id;
@@ -258,73 +253,9 @@ void b_type_clean()
         free(((char*)types[i]->class)-types[i]->iface_data.class_offset);
         if(types[i]->iface_data.entry_array)
             free(types[i]->iface_data.entry_array);
-
-        // if(types[i]->parent_id == 1){
-        //     IFaceList *list = (IFaceList*)types[i]->data;
-        //     IFaceNode *node = list->head;
-        //     IFaceNode *aux;
-        //     while(node){
-        //         aux = node;
-        //         free(node->entry.iface);
-        //         node = node->next;
-        //         free(aux);
-        //     }
-        //     free(list);
-
-        // }
-
         
         free(types[i]);
     }
-}
-
-static IFaceList* i_face_list_create( void )
-{
-    IFaceList *list = malloc(sizeof(*list));
-    list->count = 0;
-    list->head = NULL;
-    list->current = NULL;
-    return list;
-}
-static void i_face_list_add(IFaceList* list, bType type, void *iface)
-{
-    IFaceNode *node = malloc(sizeof(*node));
-    node->entry.class_type = type;
-    node->entry.iface = iface;
-    node->next = NULL;
-
-    if(list->head == NULL){
-        list->head = node;
-    }
-    else{
-        list->current->next = node;
-    }
-    list->current = node;
-    list->count++;
-}
-static void * i_face_list_get_iface(IFaceList* list, bType type)
-{
-    IFaceNode *node = list->head;
-    while(node){
-        if(node->entry.class_type == type)
-            return node->entry.iface;
-        node = node->next;
-    }
-    return NULL;
-}
-
-int b_type_interface_add(
-    bType iface_type,
-    bType type,
-    void (*iface_initialize)(void*)
-    )
-{
-    bTypeNode *q = types[iface_type];
-    IFaceList *list = q->data;
-    void *iface = malloc(q->class_size);
-    iface_initialize(iface);
-    i_face_list_add(list,type,iface);
-    return 0;
 }
 
 void * b_type_interface_get(bType instance_type, bType interface_type)
@@ -338,16 +269,6 @@ void * b_type_interface_get(bType instance_type, bType interface_type)
             break;
         }
     }
-    // IFaceList *list = types[interface_type]->data;
-    // void *iface;
-    // do{
-    //     iface = i_face_list_get_iface(list, q->type_id);
-    //     if(q->parent_id < 0){
-    //         break;
-    //     }
-    //     q = types[q->parent_id];
-        
-    // }while(iface == NULL);
     return iface;
 }
 
@@ -447,13 +368,3 @@ void b_type_overwrite_interface(bType type, IFaceParams *params)
         }
     }
 }
-
-// void b_type_interface_initialize(bType type)
-// {
-//     bTypeNode *node = b_type_get_node_from_type_id(type);
-//     int i;
-//     for(i=0;i<node->iface_data.count;i++){
-//         node->iface_data.entry_array[i].iface = ((char*)node->class) - node->iface_data.entry_array[i].offset;
-//         node->iface_data.entry_array[i].init_fcn(node->iface_data.entry_array[i].iface);
-//     }
-// }

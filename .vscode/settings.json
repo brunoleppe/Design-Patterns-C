@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "igraphics.h": "c",
+        "bdot.h": "c",
+        "bobject.h": "c"
+    }
+}

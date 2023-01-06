@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/bruno/Documents/Github/Design-Patterns-C/blib/btype.c
+btype.h
+/home/bruno/Documents/Github/Design-Patterns-C/blib/btype.h
+string.h
+-
+stdio.h
+-
+stdarg.h
+-
+
+/home/bruno/Documents/Github/Design-Patterns-C/blib/btype.h
+debug.h
+/home/bruno/Documents/Github/Design-Patterns-C/blib/debug.h
+stddef.h
+-
+stdbool.h
+-
+stdint.h
+-
+stdlib.h
+-
+
+/home/bruno/Documents/Github/Design-Patterns-C/blib/debug.h
+stdio.h
+-
+
