@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+/home/bruno/Documents/Github/Design-Patterns-C/blib/bobject.c
+bobject.h
+/home/bruno/Documents/Github/Design-Patterns-C/blib/bobject.h
+stdio.h
+-
+
+/home/bruno/Documents/Github/Design-Patterns-C/blib/bobject.h
+btype.h
+/home/bruno/Documents/Github/Design-Patterns-C/blib/btype.h
+
 /home/bruno/Documents/Github/Design-Patterns-C/blib/btype.c
 btype.h
 /home/bruno/Documents/Github/Design-Patterns-C/blib/btype.h

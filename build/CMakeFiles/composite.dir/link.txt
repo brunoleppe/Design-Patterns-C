@@ -1,1 +1,1 @@
-/usr/bin/cc -Wall   CMakeFiles/composite.dir/bdot.c.o CMakeFiles/composite.dir/composite.c.o CMakeFiles/composite.dir/bcircle.c.o  -o composite  blib/libblib.a 
+/usr/bin/gcc -Wall   CMakeFiles/composite.dir/bdot.c.o CMakeFiles/composite.dir/composite.c.o CMakeFiles/composite.dir/bcircle.c.o  -o composite  blib/libblib.a 

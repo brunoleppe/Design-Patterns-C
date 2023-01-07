@@ -63,41 +63,41 @@ include CMakeFiles/composite.dir/flags.make
 CMakeFiles/composite.dir/bdot.c.o: CMakeFiles/composite.dir/flags.make
 CMakeFiles/composite.dir/bdot.c.o: ../bdot.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bruno/Documents/Github/Design-Patterns-C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/composite.dir/bdot.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/composite.dir/bdot.c.o   -c /home/bruno/Documents/Github/Design-Patterns-C/bdot.c
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/composite.dir/bdot.c.o   -c /home/bruno/Documents/Github/Design-Patterns-C/bdot.c
 
 CMakeFiles/composite.dir/bdot.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/composite.dir/bdot.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bruno/Documents/Github/Design-Patterns-C/bdot.c > CMakeFiles/composite.dir/bdot.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bruno/Documents/Github/Design-Patterns-C/bdot.c > CMakeFiles/composite.dir/bdot.c.i
 
 CMakeFiles/composite.dir/bdot.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/composite.dir/bdot.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bruno/Documents/Github/Design-Patterns-C/bdot.c -o CMakeFiles/composite.dir/bdot.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bruno/Documents/Github/Design-Patterns-C/bdot.c -o CMakeFiles/composite.dir/bdot.c.s
 
 CMakeFiles/composite.dir/composite.c.o: CMakeFiles/composite.dir/flags.make
 CMakeFiles/composite.dir/composite.c.o: ../composite.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bruno/Documents/Github/Design-Patterns-C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/composite.dir/composite.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/composite.dir/composite.c.o   -c /home/bruno/Documents/Github/Design-Patterns-C/composite.c
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/composite.dir/composite.c.o   -c /home/bruno/Documents/Github/Design-Patterns-C/composite.c
 
 CMakeFiles/composite.dir/composite.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/composite.dir/composite.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bruno/Documents/Github/Design-Patterns-C/composite.c > CMakeFiles/composite.dir/composite.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bruno/Documents/Github/Design-Patterns-C/composite.c > CMakeFiles/composite.dir/composite.c.i
 
 CMakeFiles/composite.dir/composite.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/composite.dir/composite.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bruno/Documents/Github/Design-Patterns-C/composite.c -o CMakeFiles/composite.dir/composite.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bruno/Documents/Github/Design-Patterns-C/composite.c -o CMakeFiles/composite.dir/composite.c.s
 
 CMakeFiles/composite.dir/bcircle.c.o: CMakeFiles/composite.dir/flags.make
 CMakeFiles/composite.dir/bcircle.c.o: ../bcircle.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bruno/Documents/Github/Design-Patterns-C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/composite.dir/bcircle.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/composite.dir/bcircle.c.o   -c /home/bruno/Documents/Github/Design-Patterns-C/bcircle.c
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/composite.dir/bcircle.c.o   -c /home/bruno/Documents/Github/Design-Patterns-C/bcircle.c
 
 CMakeFiles/composite.dir/bcircle.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/composite.dir/bcircle.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bruno/Documents/Github/Design-Patterns-C/bcircle.c > CMakeFiles/composite.dir/bcircle.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bruno/Documents/Github/Design-Patterns-C/bcircle.c > CMakeFiles/composite.dir/bcircle.c.i
 
 CMakeFiles/composite.dir/bcircle.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/composite.dir/bcircle.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bruno/Documents/Github/Design-Patterns-C/bcircle.c -o CMakeFiles/composite.dir/bcircle.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bruno/Documents/Github/Design-Patterns-C/bcircle.c -o CMakeFiles/composite.dir/bcircle.c.s
 
 # Object files for target composite
 composite_OBJECTS = \

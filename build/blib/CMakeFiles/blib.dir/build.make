@@ -63,41 +63,41 @@ include blib/CMakeFiles/blib.dir/flags.make
 blib/CMakeFiles/blib.dir/bobject.c.o: blib/CMakeFiles/blib.dir/flags.make
 blib/CMakeFiles/blib.dir/bobject.c.o: ../blib/bobject.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bruno/Documents/Github/Design-Patterns-C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object blib/CMakeFiles/blib.dir/bobject.c.o"
-	cd /home/bruno/Documents/Github/Design-Patterns-C/build/blib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blib.dir/bobject.c.o   -c /home/bruno/Documents/Github/Design-Patterns-C/blib/bobject.c
+	cd /home/bruno/Documents/Github/Design-Patterns-C/build/blib && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blib.dir/bobject.c.o   -c /home/bruno/Documents/Github/Design-Patterns-C/blib/bobject.c
 
 blib/CMakeFiles/blib.dir/bobject.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blib.dir/bobject.c.i"
-	cd /home/bruno/Documents/Github/Design-Patterns-C/build/blib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bruno/Documents/Github/Design-Patterns-C/blib/bobject.c > CMakeFiles/blib.dir/bobject.c.i
+	cd /home/bruno/Documents/Github/Design-Patterns-C/build/blib && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bruno/Documents/Github/Design-Patterns-C/blib/bobject.c > CMakeFiles/blib.dir/bobject.c.i
 
 blib/CMakeFiles/blib.dir/bobject.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blib.dir/bobject.c.s"
-	cd /home/bruno/Documents/Github/Design-Patterns-C/build/blib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bruno/Documents/Github/Design-Patterns-C/blib/bobject.c -o CMakeFiles/blib.dir/bobject.c.s
+	cd /home/bruno/Documents/Github/Design-Patterns-C/build/blib && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bruno/Documents/Github/Design-Patterns-C/blib/bobject.c -o CMakeFiles/blib.dir/bobject.c.s
 
 blib/CMakeFiles/blib.dir/btype.c.o: blib/CMakeFiles/blib.dir/flags.make
 blib/CMakeFiles/blib.dir/btype.c.o: ../blib/btype.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bruno/Documents/Github/Design-Patterns-C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object blib/CMakeFiles/blib.dir/btype.c.o"
-	cd /home/bruno/Documents/Github/Design-Patterns-C/build/blib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blib.dir/btype.c.o   -c /home/bruno/Documents/Github/Design-Patterns-C/blib/btype.c
+	cd /home/bruno/Documents/Github/Design-Patterns-C/build/blib && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blib.dir/btype.c.o   -c /home/bruno/Documents/Github/Design-Patterns-C/blib/btype.c
 
 blib/CMakeFiles/blib.dir/btype.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blib.dir/btype.c.i"
-	cd /home/bruno/Documents/Github/Design-Patterns-C/build/blib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bruno/Documents/Github/Design-Patterns-C/blib/btype.c > CMakeFiles/blib.dir/btype.c.i
+	cd /home/bruno/Documents/Github/Design-Patterns-C/build/blib && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bruno/Documents/Github/Design-Patterns-C/blib/btype.c > CMakeFiles/blib.dir/btype.c.i
 
 blib/CMakeFiles/blib.dir/btype.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blib.dir/btype.c.s"
-	cd /home/bruno/Documents/Github/Design-Patterns-C/build/blib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bruno/Documents/Github/Design-Patterns-C/blib/btype.c -o CMakeFiles/blib.dir/btype.c.s
+	cd /home/bruno/Documents/Github/Design-Patterns-C/build/blib && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bruno/Documents/Github/Design-Patterns-C/blib/btype.c -o CMakeFiles/blib.dir/btype.c.s
 
 blib/CMakeFiles/blib.dir/debug.c.o: blib/CMakeFiles/blib.dir/flags.make
 blib/CMakeFiles/blib.dir/debug.c.o: ../blib/debug.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bruno/Documents/Github/Design-Patterns-C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object blib/CMakeFiles/blib.dir/debug.c.o"
-	cd /home/bruno/Documents/Github/Design-Patterns-C/build/blib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blib.dir/debug.c.o   -c /home/bruno/Documents/Github/Design-Patterns-C/blib/debug.c
+	cd /home/bruno/Documents/Github/Design-Patterns-C/build/blib && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blib.dir/debug.c.o   -c /home/bruno/Documents/Github/Design-Patterns-C/blib/debug.c
 
 blib/CMakeFiles/blib.dir/debug.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blib.dir/debug.c.i"
-	cd /home/bruno/Documents/Github/Design-Patterns-C/build/blib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bruno/Documents/Github/Design-Patterns-C/blib/debug.c > CMakeFiles/blib.dir/debug.c.i
+	cd /home/bruno/Documents/Github/Design-Patterns-C/build/blib && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bruno/Documents/Github/Design-Patterns-C/blib/debug.c > CMakeFiles/blib.dir/debug.c.i
 
 blib/CMakeFiles/blib.dir/debug.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blib.dir/debug.c.s"
-	cd /home/bruno/Documents/Github/Design-Patterns-C/build/blib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bruno/Documents/Github/Design-Patterns-C/blib/debug.c -o CMakeFiles/blib.dir/debug.c.s
+	cd /home/bruno/Documents/Github/Design-Patterns-C/build/blib && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bruno/Documents/Github/Design-Patterns-C/blib/debug.c -o CMakeFiles/blib.dir/debug.c.s
 
 # Object files for target blib
 blib_OBJECTS = \
