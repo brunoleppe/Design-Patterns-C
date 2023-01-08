@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/home/bruno/Documents/Github/Design-Patterns-C/blib/blist.c" "/home/bruno/Documents/Github/Design-Patterns-C/build/blib/CMakeFiles/blib.dir/blist.c.o"
   "/home/bruno/Documents/Github/Design-Patterns-C/blib/bobject.c" "/home/bruno/Documents/Github/Design-Patterns-C/build/blib/CMakeFiles/blib.dir/bobject.c.o"
   "/home/bruno/Documents/Github/Design-Patterns-C/blib/btype.c" "/home/bruno/Documents/Github/Design-Patterns-C/build/blib/CMakeFiles/blib.dir/btype.c.o"
   "/home/bruno/Documents/Github/Design-Patterns-C/blib/debug.c" "/home/bruno/Documents/Github/Design-Patterns-C/build/blib/CMakeFiles/blib.dir/debug.c.o"

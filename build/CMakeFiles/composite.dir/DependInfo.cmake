@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "/home/bruno/Documents/Github/Design-Patterns-C/bcircle.c" "/home/bruno/Documents/Github/Design-Patterns-C/build/CMakeFiles/composite.dir/bcircle.c.o"
   "/home/bruno/Documents/Github/Design-Patterns-C/bdot.c" "/home/bruno/Documents/Github/Design-Patterns-C/build/CMakeFiles/composite.dir/bdot.c.o"
+  "/home/bruno/Documents/Github/Design-Patterns-C/bwindow.c" "/home/bruno/Documents/Github/Design-Patterns-C/build/CMakeFiles/composite.dir/bwindow.c.o"
   "/home/bruno/Documents/Github/Design-Patterns-C/composite.c" "/home/bruno/Documents/Github/Design-Patterns-C/build/CMakeFiles/composite.dir/composite.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")

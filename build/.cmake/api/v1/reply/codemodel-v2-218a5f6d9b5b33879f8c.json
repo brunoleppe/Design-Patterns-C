@@ -36,7 +36,7 @@
 					]
 				}
 			],
-			"name" : "",
+			"name" : "Debug",
 			"projects" : 
 			[
 				{
@@ -58,14 +58,14 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "blib::@f3b5e8f77357d35e6d2a",
-					"jsonFile" : "target-blib-4365d6767e33ee95c9cb.json",
+					"jsonFile" : "target-blib-Debug-18c1eb1b4af9226744c1.json",
 					"name" : "blib",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "composite::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-composite-811a5ca0866d20adc371.json",
+					"jsonFile" : "target-composite-Debug-84973903a5de77d3cd9c.json",
 					"name" : "composite",
 					"projectIndex" : 0
 				}

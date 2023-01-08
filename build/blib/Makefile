@@ -23,9 +23,6 @@ SUFFIXES =
 .SUFFIXES: .hpux_make_needs_suffix_list
 
 
-# Produce verbose output by default.
-VERBOSE = 1
-
 # Suppress display of executed commands.
 $(VERBOSE).SILENT:
 
@@ -128,6 +125,33 @@ blib/fast:
 	cd /home/bruno/Documents/Github/Design-Patterns-C/build && $(MAKE) -f blib/CMakeFiles/blib.dir/build.make blib/CMakeFiles/blib.dir/build
 .PHONY : blib/fast
 
+blist.o: blist.c.o
+
+.PHONY : blist.o
+
+# target to build an object file
+blist.c.o:
+	cd /home/bruno/Documents/Github/Design-Patterns-C/build && $(MAKE) -f blib/CMakeFiles/blib.dir/build.make blib/CMakeFiles/blib.dir/blist.c.o
+.PHONY : blist.c.o
+
+blist.i: blist.c.i
+
+.PHONY : blist.i
+
+# target to preprocess a source file
+blist.c.i:
+	cd /home/bruno/Documents/Github/Design-Patterns-C/build && $(MAKE) -f blib/CMakeFiles/blib.dir/build.make blib/CMakeFiles/blib.dir/blist.c.i
+.PHONY : blist.c.i
+
+blist.s: blist.c.s
+
+.PHONY : blist.s
+
+# target to generate assembly for a file
+blist.c.s:
+	cd /home/bruno/Documents/Github/Design-Patterns-C/build && $(MAKE) -f blib/CMakeFiles/blib.dir/build.make blib/CMakeFiles/blib.dir/blist.c.s
+.PHONY : blist.c.s
+
 bobject.o: bobject.c.o
 
 .PHONY : bobject.o
@@ -218,6 +242,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... blib"
+	@echo "... blist.o"
+	@echo "... blist.i"
+	@echo "... blist.s"
 	@echo "... bobject.o"
 	@echo "... bobject.i"
 	@echo "... bobject.s"

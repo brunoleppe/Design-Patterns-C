@@ -23,9 +23,6 @@ SUFFIXES =
 .SUFFIXES: .hpux_make_needs_suffix_list
 
 
-# Produce verbose output by default.
-VERBOSE = 1
-
 # Suppress display of executed commands.
 $(VERBOSE).SILENT:
 
@@ -193,6 +190,33 @@ bdot.c.s:
 	$(MAKE) -f CMakeFiles/composite.dir/build.make CMakeFiles/composite.dir/bdot.c.s
 .PHONY : bdot.c.s
 
+bwindow.o: bwindow.c.o
+
+.PHONY : bwindow.o
+
+# target to build an object file
+bwindow.c.o:
+	$(MAKE) -f CMakeFiles/composite.dir/build.make CMakeFiles/composite.dir/bwindow.c.o
+.PHONY : bwindow.c.o
+
+bwindow.i: bwindow.c.i
+
+.PHONY : bwindow.i
+
+# target to preprocess a source file
+bwindow.c.i:
+	$(MAKE) -f CMakeFiles/composite.dir/build.make CMakeFiles/composite.dir/bwindow.c.i
+.PHONY : bwindow.c.i
+
+bwindow.s: bwindow.c.s
+
+.PHONY : bwindow.s
+
+# target to generate assembly for a file
+bwindow.c.s:
+	$(MAKE) -f CMakeFiles/composite.dir/build.make CMakeFiles/composite.dir/bwindow.c.s
+.PHONY : bwindow.c.s
+
 composite.o: composite.c.o
 
 .PHONY : composite.o
@@ -236,6 +260,9 @@ help:
 	@echo "... bdot.o"
 	@echo "... bdot.i"
 	@echo "... bdot.s"
+	@echo "... bwindow.o"
+	@echo "... bwindow.i"
+	@echo "... bwindow.s"
 	@echo "... composite.o"
 	@echo "... composite.i"
 	@echo "... composite.s"

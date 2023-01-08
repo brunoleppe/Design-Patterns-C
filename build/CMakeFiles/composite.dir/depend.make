@@ -4,20 +4,33 @@
 CMakeFiles/composite.dir/bcircle.c.o: ../bcircle.c
 CMakeFiles/composite.dir/bcircle.c.o: ../bcircle.h
 CMakeFiles/composite.dir/bcircle.c.o: ../bdot.h
+CMakeFiles/composite.dir/bcircle.c.o: ../blib/balloc.h
 CMakeFiles/composite.dir/bcircle.c.o: ../blib/bobject.h
 CMakeFiles/composite.dir/bcircle.c.o: ../blib/btype.h
 CMakeFiles/composite.dir/bcircle.c.o: ../blib/debug.h
 
 CMakeFiles/composite.dir/bdot.c.o: ../bdot.c
 CMakeFiles/composite.dir/bdot.c.o: ../bdot.h
+CMakeFiles/composite.dir/bdot.c.o: ../blib/balloc.h
 CMakeFiles/composite.dir/bdot.c.o: ../blib/bobject.h
 CMakeFiles/composite.dir/bdot.c.o: ../blib/btype.h
 CMakeFiles/composite.dir/bdot.c.o: ../blib/debug.h
 
+CMakeFiles/composite.dir/bwindow.c.o: ../bdot.h
+CMakeFiles/composite.dir/bwindow.c.o: ../blib/balloc.h
+CMakeFiles/composite.dir/bwindow.c.o: ../blib/blist.h
+CMakeFiles/composite.dir/bwindow.c.o: ../blib/bobject.h
+CMakeFiles/composite.dir/bwindow.c.o: ../blib/btype.h
+CMakeFiles/composite.dir/bwindow.c.o: ../blib/debug.h
+CMakeFiles/composite.dir/bwindow.c.o: ../bwindow.c
+CMakeFiles/composite.dir/bwindow.c.o: ../bwindow.h
+
 CMakeFiles/composite.dir/composite.c.o: ../bcircle.h
 CMakeFiles/composite.dir/composite.c.o: ../bdot.h
+CMakeFiles/composite.dir/composite.c.o: ../blib/balloc.h
 CMakeFiles/composite.dir/composite.c.o: ../blib/bobject.h
 CMakeFiles/composite.dir/composite.c.o: ../blib/btype.h
 CMakeFiles/composite.dir/composite.c.o: ../blib/debug.h
+CMakeFiles/composite.dir/composite.c.o: ../bwindow.h
 CMakeFiles/composite.dir/composite.c.o: ../composite.c
 

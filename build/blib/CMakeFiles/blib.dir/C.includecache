@@ -6,25 +6,25 @@
 
 #IncludeRegexTransform: 
 
-/home/bruno/Documents/Github/Design-Patterns-C/blib/bobject.c
+/home/bruno/Documents/Github/Design-Patterns-C/blib/balloc.h
+stddef.h
+-
+stdlib.h
+-
+stdlib.h
+-
+
+/home/bruno/Documents/Github/Design-Patterns-C/blib/blist.c
+blist.h
+/home/bruno/Documents/Github/Design-Patterns-C/blib/blist.h
+
+/home/bruno/Documents/Github/Design-Patterns-C/blib/blist.h
 bobject.h
 /home/bruno/Documents/Github/Design-Patterns-C/blib/bobject.h
-stdio.h
--
 
 /home/bruno/Documents/Github/Design-Patterns-C/blib/bobject.h
 btype.h
 /home/bruno/Documents/Github/Design-Patterns-C/blib/btype.h
-
-/home/bruno/Documents/Github/Design-Patterns-C/blib/btype.c
-btype.h
-/home/bruno/Documents/Github/Design-Patterns-C/blib/btype.h
-string.h
--
-stdio.h
--
-stdarg.h
--
 
 /home/bruno/Documents/Github/Design-Patterns-C/blib/btype.h
 debug.h
@@ -35,8 +35,8 @@ stdbool.h
 -
 stdint.h
 -
-stdlib.h
--
+balloc.h
+/home/bruno/Documents/Github/Design-Patterns-C/blib/balloc.h
 
 /home/bruno/Documents/Github/Design-Patterns-C/blib/debug.h
 stdio.h

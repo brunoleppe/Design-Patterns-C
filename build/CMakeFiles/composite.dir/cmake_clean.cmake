@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/composite.dir/bcircle.c.o"
   "CMakeFiles/composite.dir/bdot.c.o"
+  "CMakeFiles/composite.dir/bwindow.c.o"
   "CMakeFiles/composite.dir/composite.c.o"
   "composite"
   "composite.pdb"
