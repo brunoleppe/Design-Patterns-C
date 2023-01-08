@@ -6,11 +6,12 @@ set(SOURCES
     bdot.c
     composite.c
     bcircle.c
+    bwindow.c
 )
 
 set(CMAKE_C_FLAGS "-Wall")
 
-set(CMAKE_VERBOSE_MAKEFILE ON)
+# set(CMAKE_VERBOSE_MAKEFILE ON)
 
 add_executable(${PROJECT_NAME} ${SOURCES})
 

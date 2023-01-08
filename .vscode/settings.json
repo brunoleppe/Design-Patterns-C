@@ -2,6 +2,10 @@
     "files.associations": {
         "igraphics.h": "c",
         "bdot.h": "c",
-        "bobject.h": "c"
+        "bobject.h": "c",
+        "blist.h": "c",
+        "malloc.h": "c",
+        "stdlib.h": "c",
+        "alloca.h": "c"
     }
 }

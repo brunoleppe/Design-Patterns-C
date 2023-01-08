@@ -74,8 +74,11 @@ bType b_type_register(
     type_count++;
 
     //Alloc new bTypeNode
-    bTypeNode *q = malloc(sizeof(*q));
-    
+    bTypeNode *q = b_malloc(sizeof(*q));
+    if(!q){
+        return -1;
+    }
+
     //Initialize interface data
     q->iface_data.class_offset = 0;
     q->iface_data.count = 0;
@@ -149,8 +152,11 @@ bType b_type_object_initialize(
     type_count++;
 
     //Alloc new bTypeNode
-    bTypeNode *q = malloc(sizeof(*q));
-    
+    bTypeNode *q = b_malloc(sizeof(*q));
+    if(!q){ //q == NULL
+        return -1;
+    }
+
     //Initialize interface data
     q->iface_data.class_offset = 0;
     q->iface_data.count = 0;
@@ -225,7 +231,7 @@ static void b_type_initialize(bType type, void *instance)
 void * b_type_instantiate(bType type)
 {
     bTypeNode *q = b_type_get_node_from_type_id(type);
-    void * instance = malloc(q->instance_size);
+    void * instance = b_malloc(q->instance_size);
     if(instance == NULL)
         return NULL;
 
@@ -261,6 +267,9 @@ void b_type_clean()
 void * b_type_interface_get(bType instance_type, bType interface_type)
 {
     bTypeNode *q = types[instance_type];
+    if(!q->iface_data.entry_array){
+        return NULL;
+    }
     void *iface = NULL;
     int i;
     for(i=0;i<q->iface_data.count;i++){
@@ -291,7 +300,10 @@ void b_type_add_interfaces(bType type, ...)
     va_end(list);
 
 
-    node->iface_data.entry_array = malloc(sizeof(IFaceEntry)*count);
+    node->iface_data.entry_array = b_malloc(sizeof(IFaceEntry)*count);
+    if(!node->iface_data.entry_array){
+        return;
+    }
     if(node->parent_id >= 0 && node->iface_data.entry_array != NULL){
         memcpy(
             node->iface_data.entry_array, 
@@ -330,7 +342,10 @@ void b_type_add_interfaces(bType type, ...)
 void b_type_class_initialize(bType type)
 {
     bTypeNode *node = types[type];
-    node->class = malloc(node->class_size);
+    node->class = b_malloc(node->class_size);
+    if(!node->class){
+        return;
+    }
     bTypeNode *parent = types[node->parent_id];
     if(node->parent_id >=0 && parent->iface_data.entry_array != NULL){
         int offset = 0;
@@ -360,6 +375,9 @@ void b_type_class_initialize(bType type)
 void b_type_overwrite_interface(bType type, IFaceParams *params)
 {
     bTypeNode *q = b_type_get_node_from_type_id(type);
+    if(!q->iface_data.entry_array){
+        return;
+    }
     int i;
     for(i=0;i<q->iface_data.count;i++){
         if(q->iface_data.entry_array[i].class_type == params->iface_type){

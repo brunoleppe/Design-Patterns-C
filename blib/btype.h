@@ -6,7 +6,7 @@
 #include <stddef.h>
 #include <stdbool.h>
 #include <stdint.h>
-#include <stdlib.h>
+#include "balloc.h"
 
 typedef int bType;
 typedef size_t bSize;

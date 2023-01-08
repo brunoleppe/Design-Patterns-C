@@ -1,5 +1,6 @@
 #include "bdot.h"
 #include "bcircle.h"
+#include "bwindow.h"
 
 int main(int argc, char *argv[]){
 
@@ -7,16 +8,17 @@ int main(int argc, char *argv[]){
     dot->x = 10;
     dot->y = 11;
 
-    b_dot_move(dot,5,2);
-    b_dot_draw(dot);
-
     BCircle *circle = b_circle_new();
 
-    b_dot_move((BDot*)circle,10,11);
-    b_dot_draw((BDot*)circle);
+    BWindow *window = b_window_new();
+    
+    b_window_add(window, circle);
+    b_window_add(window, dot);
 
-    b_object_delete((BObject*)circle);
-    b_object_delete((BObject*)dot);
+    b_dot_move((BDot*)window,10,11);
+    b_dot_draw((BDot*)window);
+
+    b_object_delete((BObject*)window);
 
     b_type_clean();
 

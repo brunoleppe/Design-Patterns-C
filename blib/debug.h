@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 
-#ifdef __DEBUG__
+#ifdef B_DEBUG
 #define DEBUG_PRINT(...)        debug_print(DEBUG,__VA_ARGS__)     
 #define INFO_PRINT(...)         debug_print(INFO,__VA_ARGS__)
 #define ERROR_PINRT(...)         debug_print(ERROR,__VA_ARGS__)

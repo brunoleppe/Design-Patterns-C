@@ -31,7 +31,7 @@ static void bOject_initialize(){
     b_type_class_initialize(type_id);
 
     initialized = true;
-    INFO_PRINT("Objecto inicializado\n");
+    INFO_PRINT("Objeto inicializado\n");
 }
 
 BObject* b_object_new(bType type)
