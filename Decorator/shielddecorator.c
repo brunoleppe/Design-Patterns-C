@@ -7,7 +7,7 @@ static void i_enemy_interface_init(IEnemyInterface *iface);
 static int shield_decorator_take_damage(ShieldDecorator *self);
 
 B_DEFINE_TYPE_EXTENDED(ShieldDecorator, shield_decorator, ENEMY_TYPE_DECORATOR(),
-	B_OVERWRITE_INTERFACE(I_TYPE_ENEMY(),i_enemy_interface_init)
+	B_OVERWRITE_INTERFACE(B_INTERFACE(I_TYPE_ENEMY(),i_enemy_interface_init))
 )
 
 static void i_enemy_interface_init(IEnemyInterface *iface)

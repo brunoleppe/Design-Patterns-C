@@ -1,8 +1,5 @@
 {
     "files.associations": {
-        "ienemy.h": "c",
-        "baseenemy.h": "c",
-        "bobject.h": "c",
-        "enemydecorator.h": "c"
+        "shielddecorator.h": "c"
     }
 }
