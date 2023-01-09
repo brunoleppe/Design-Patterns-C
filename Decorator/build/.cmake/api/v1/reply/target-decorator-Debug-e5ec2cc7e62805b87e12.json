@@ -42,7 +42,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-Wall -g  "
+					"fragment" : "-Wall -g"
 				}
 			],
 			"language" : "C",

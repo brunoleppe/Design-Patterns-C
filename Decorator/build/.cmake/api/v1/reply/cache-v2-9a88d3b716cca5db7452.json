@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/bruno/Documents/Github/Design-Patterns-C/Decorator/build"
+			"value" : "/home/bleppe/Documents/Github/Design-Patterns-C/Decorator/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -79,7 +79,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "16"
+			"value" : "22"
 		},
 		{
 			"name" : "CMAKE_CACHE_PATCH_VERSION",
@@ -91,7 +91,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "3"
+			"value" : "1"
 		},
 		{
 			"name" : "CMAKE_COLOR_MAKEFILE",
@@ -187,7 +187,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/gcc-ar-9"
+			"value" : "/usr/bin/gcc-ar-11"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_RANLIB",
@@ -203,7 +203,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/gcc-ranlib-9"
+			"value" : "/usr/bin/gcc-ranlib-11"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS",
@@ -479,7 +479,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/bruno/Documents/Github/Design-Patterns-C/Decorator"
+			"value" : "/home/bleppe/Documents/Github/Design-Patterns-C/Decorator"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -535,7 +535,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/make"
+			"value" : "/usr/bin/gmake"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -767,7 +767,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/usr/share/cmake-3.16"
+			"value" : "/usr/share/cmake-3.22"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1015,7 +1015,19 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/bruno/Documents/Github/Design-Patterns-C/Decorator/build"
+			"value" : "/home/bleppe/Documents/Github/Design-Patterns-C/Decorator/build"
+		},
+		{
+			"name" : "decorator_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
 		},
 		{
 			"name" : "decorator_SOURCE_DIR",
@@ -1027,7 +1039,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/bruno/Documents/Github/Design-Patterns-C/Decorator"
+			"value" : "/home/bleppe/Documents/Github/Design-Patterns-C/Decorator"
 		}
 	],
 	"kind" : "cache",

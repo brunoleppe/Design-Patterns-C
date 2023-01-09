@@ -1,4 +1,4 @@
-# Install script for directory: /home/bruno/Documents/Github/Design-Patterns-C/Decorator
+# Install script for directory: /home/bleppe/Documents/Github/Design-Patterns-C/Decorator
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -37,9 +37,14 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
+# Set default install directory permissions.
+if(NOT DEFINED CMAKE_OBJDUMP)
+  set(CMAKE_OBJDUMP "/usr/bin/objdump")
+endif()
+
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bruno/Documents/Github/Design-Patterns-C/Decorator/build/blib/cmake_install.cmake")
+  include("/home/bleppe/Documents/Github/Design-Patterns-C/Decorator/build/blib/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -50,5 +55,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/bruno/Documents/Github/Design-Patterns-C/Decorator/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/bleppe/Documents/Github/Design-Patterns-C/Decorator/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
