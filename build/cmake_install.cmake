@@ -1,4 +1,4 @@
-# Install script for directory: /home/bruno/Documents/Github/Design-Patterns-C
+# Install script for directory: /home/bruno/Documents/Github/Design-Patterns-C/Composite
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

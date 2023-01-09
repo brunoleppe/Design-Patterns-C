@@ -1,4 +1,4 @@
-# Install script for directory: /home/bruno/Documents/Github/Design-Patterns-C/blib
+# Install script for directory: /home/bruno/Documents/Github/Design-Patterns-C/Composite/blib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

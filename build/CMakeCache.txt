@@ -189,7 +189,7 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 composite_BINARY_DIR:STATIC=/home/bruno/Documents/Github/Design-Patterns-C/build
 
 //Value Computed by CMake
-composite_SOURCE_DIR:STATIC=/home/bruno/Documents/Github/Design-Patterns-C
+composite_SOURCE_DIR:STATIC=/home/bruno/Documents/Github/Design-Patterns-C/Composite
 
 
 ########################
@@ -260,7 +260,7 @@ CMAKE_GENERATOR_PLATFORM:INTERNAL=
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/bruno/Documents/Github/Design-Patterns-C
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/bruno/Documents/Github/Design-Patterns-C/Composite
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

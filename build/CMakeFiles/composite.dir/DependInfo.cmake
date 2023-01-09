@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/bruno/Documents/Github/Design-Patterns-C/bcircle.c" "/home/bruno/Documents/Github/Design-Patterns-C/build/CMakeFiles/composite.dir/bcircle.c.o"
-  "/home/bruno/Documents/Github/Design-Patterns-C/bdot.c" "/home/bruno/Documents/Github/Design-Patterns-C/build/CMakeFiles/composite.dir/bdot.c.o"
-  "/home/bruno/Documents/Github/Design-Patterns-C/bwindow.c" "/home/bruno/Documents/Github/Design-Patterns-C/build/CMakeFiles/composite.dir/bwindow.c.o"
-  "/home/bruno/Documents/Github/Design-Patterns-C/composite.c" "/home/bruno/Documents/Github/Design-Patterns-C/build/CMakeFiles/composite.dir/composite.c.o"
+  "/home/bruno/Documents/Github/Design-Patterns-C/Composite/bcircle.c" "/home/bruno/Documents/Github/Design-Patterns-C/build/CMakeFiles/composite.dir/bcircle.c.o"
+  "/home/bruno/Documents/Github/Design-Patterns-C/Composite/bdot.c" "/home/bruno/Documents/Github/Design-Patterns-C/build/CMakeFiles/composite.dir/bdot.c.o"
+  "/home/bruno/Documents/Github/Design-Patterns-C/Composite/bwindow.c" "/home/bruno/Documents/Github/Design-Patterns-C/build/CMakeFiles/composite.dir/bwindow.c.o"
+  "/home/bruno/Documents/Github/Design-Patterns-C/Composite/composite.c" "/home/bruno/Documents/Github/Design-Patterns-C/build/CMakeFiles/composite.dir/composite.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

@@ -18,6 +18,9 @@ SUFFIXES =
 .SUFFIXES: .hpux_make_needs_suffix_list
 
 
+# Produce verbose output by default.
+VERBOSE = 1
+
 # Suppress display of executed commands.
 $(VERBOSE).SILENT:
 
@@ -43,7 +46,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bruno/Documents/Github/Design-Patterns-C
+CMAKE_SOURCE_DIR = /home/bruno/Documents/Github/Design-Patterns-C/Composite
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/bruno/Documents/Github/Design-Patterns-C/build
@@ -58,56 +61,56 @@ include CMakeFiles/composite.dir/progress.make
 include CMakeFiles/composite.dir/flags.make
 
 CMakeFiles/composite.dir/bdot.c.o: CMakeFiles/composite.dir/flags.make
-CMakeFiles/composite.dir/bdot.c.o: ../bdot.c
+CMakeFiles/composite.dir/bdot.c.o: /home/bruno/Documents/Github/Design-Patterns-C/Composite/bdot.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bruno/Documents/Github/Design-Patterns-C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/composite.dir/bdot.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/composite.dir/bdot.c.o   -c /home/bruno/Documents/Github/Design-Patterns-C/bdot.c
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/composite.dir/bdot.c.o   -c /home/bruno/Documents/Github/Design-Patterns-C/Composite/bdot.c
 
 CMakeFiles/composite.dir/bdot.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/composite.dir/bdot.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bruno/Documents/Github/Design-Patterns-C/bdot.c > CMakeFiles/composite.dir/bdot.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bruno/Documents/Github/Design-Patterns-C/Composite/bdot.c > CMakeFiles/composite.dir/bdot.c.i
 
 CMakeFiles/composite.dir/bdot.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/composite.dir/bdot.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bruno/Documents/Github/Design-Patterns-C/bdot.c -o CMakeFiles/composite.dir/bdot.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bruno/Documents/Github/Design-Patterns-C/Composite/bdot.c -o CMakeFiles/composite.dir/bdot.c.s
 
 CMakeFiles/composite.dir/composite.c.o: CMakeFiles/composite.dir/flags.make
-CMakeFiles/composite.dir/composite.c.o: ../composite.c
+CMakeFiles/composite.dir/composite.c.o: /home/bruno/Documents/Github/Design-Patterns-C/Composite/composite.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bruno/Documents/Github/Design-Patterns-C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/composite.dir/composite.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/composite.dir/composite.c.o   -c /home/bruno/Documents/Github/Design-Patterns-C/composite.c
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/composite.dir/composite.c.o   -c /home/bruno/Documents/Github/Design-Patterns-C/Composite/composite.c
 
 CMakeFiles/composite.dir/composite.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/composite.dir/composite.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bruno/Documents/Github/Design-Patterns-C/composite.c > CMakeFiles/composite.dir/composite.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bruno/Documents/Github/Design-Patterns-C/Composite/composite.c > CMakeFiles/composite.dir/composite.c.i
 
 CMakeFiles/composite.dir/composite.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/composite.dir/composite.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bruno/Documents/Github/Design-Patterns-C/composite.c -o CMakeFiles/composite.dir/composite.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bruno/Documents/Github/Design-Patterns-C/Composite/composite.c -o CMakeFiles/composite.dir/composite.c.s
 
 CMakeFiles/composite.dir/bcircle.c.o: CMakeFiles/composite.dir/flags.make
-CMakeFiles/composite.dir/bcircle.c.o: ../bcircle.c
+CMakeFiles/composite.dir/bcircle.c.o: /home/bruno/Documents/Github/Design-Patterns-C/Composite/bcircle.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bruno/Documents/Github/Design-Patterns-C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/composite.dir/bcircle.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/composite.dir/bcircle.c.o   -c /home/bruno/Documents/Github/Design-Patterns-C/bcircle.c
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/composite.dir/bcircle.c.o   -c /home/bruno/Documents/Github/Design-Patterns-C/Composite/bcircle.c
 
 CMakeFiles/composite.dir/bcircle.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/composite.dir/bcircle.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bruno/Documents/Github/Design-Patterns-C/bcircle.c > CMakeFiles/composite.dir/bcircle.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bruno/Documents/Github/Design-Patterns-C/Composite/bcircle.c > CMakeFiles/composite.dir/bcircle.c.i
 
 CMakeFiles/composite.dir/bcircle.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/composite.dir/bcircle.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bruno/Documents/Github/Design-Patterns-C/bcircle.c -o CMakeFiles/composite.dir/bcircle.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bruno/Documents/Github/Design-Patterns-C/Composite/bcircle.c -o CMakeFiles/composite.dir/bcircle.c.s
 
 CMakeFiles/composite.dir/bwindow.c.o: CMakeFiles/composite.dir/flags.make
-CMakeFiles/composite.dir/bwindow.c.o: ../bwindow.c
+CMakeFiles/composite.dir/bwindow.c.o: /home/bruno/Documents/Github/Design-Patterns-C/Composite/bwindow.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bruno/Documents/Github/Design-Patterns-C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/composite.dir/bwindow.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/composite.dir/bwindow.c.o   -c /home/bruno/Documents/Github/Design-Patterns-C/bwindow.c
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/composite.dir/bwindow.c.o   -c /home/bruno/Documents/Github/Design-Patterns-C/Composite/bwindow.c
 
 CMakeFiles/composite.dir/bwindow.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/composite.dir/bwindow.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bruno/Documents/Github/Design-Patterns-C/bwindow.c > CMakeFiles/composite.dir/bwindow.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bruno/Documents/Github/Design-Patterns-C/Composite/bwindow.c > CMakeFiles/composite.dir/bwindow.c.i
 
 CMakeFiles/composite.dir/bwindow.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/composite.dir/bwindow.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bruno/Documents/Github/Design-Patterns-C/bwindow.c -o CMakeFiles/composite.dir/bwindow.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bruno/Documents/Github/Design-Patterns-C/Composite/bwindow.c -o CMakeFiles/composite.dir/bwindow.c.s
 
 # Object files for target composite
 composite_OBJECTS = \
@@ -139,6 +142,6 @@ CMakeFiles/composite.dir/clean:
 .PHONY : CMakeFiles/composite.dir/clean
 
 CMakeFiles/composite.dir/depend:
-	cd /home/bruno/Documents/Github/Design-Patterns-C/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bruno/Documents/Github/Design-Patterns-C /home/bruno/Documents/Github/Design-Patterns-C /home/bruno/Documents/Github/Design-Patterns-C/build /home/bruno/Documents/Github/Design-Patterns-C/build /home/bruno/Documents/Github/Design-Patterns-C/build/CMakeFiles/composite.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bruno/Documents/Github/Design-Patterns-C/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bruno/Documents/Github/Design-Patterns-C/Composite /home/bruno/Documents/Github/Design-Patterns-C/Composite /home/bruno/Documents/Github/Design-Patterns-C/build /home/bruno/Documents/Github/Design-Patterns-C/build /home/bruno/Documents/Github/Design-Patterns-C/build/CMakeFiles/composite.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/composite.dir/depend
 

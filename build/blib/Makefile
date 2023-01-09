@@ -23,6 +23,9 @@ SUFFIXES =
 .SUFFIXES: .hpux_make_needs_suffix_list
 
 
+# Produce verbose output by default.
+VERBOSE = 1
+
 # Suppress display of executed commands.
 $(VERBOSE).SILENT:
 
@@ -48,7 +51,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bruno/Documents/Github/Design-Patterns-C
+CMAKE_SOURCE_DIR = /home/bruno/Documents/Github/Design-Patterns-C/Composite
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/bruno/Documents/Github/Design-Patterns-C/build

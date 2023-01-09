@@ -1,42 +1,42 @@
 [
 {
   "directory": "/home/bruno/Documents/Github/Design-Patterns-C/build",
-  "command": "/usr/bin/gcc   -Wall -g   -o CMakeFiles/composite.dir/bdot.c.o   -c /home/bruno/Documents/Github/Design-Patterns-C/bdot.c",
-  "file": "/home/bruno/Documents/Github/Design-Patterns-C/bdot.c"
+  "command": "/usr/bin/gcc   -Wall -g   -o CMakeFiles/composite.dir/bdot.c.o   -c /home/bruno/Documents/Github/Design-Patterns-C/Composite/bdot.c",
+  "file": "/home/bruno/Documents/Github/Design-Patterns-C/Composite/bdot.c"
 },
 {
   "directory": "/home/bruno/Documents/Github/Design-Patterns-C/build",
-  "command": "/usr/bin/gcc   -Wall -g   -o CMakeFiles/composite.dir/composite.c.o   -c /home/bruno/Documents/Github/Design-Patterns-C/composite.c",
-  "file": "/home/bruno/Documents/Github/Design-Patterns-C/composite.c"
+  "command": "/usr/bin/gcc   -Wall -g   -o CMakeFiles/composite.dir/composite.c.o   -c /home/bruno/Documents/Github/Design-Patterns-C/Composite/composite.c",
+  "file": "/home/bruno/Documents/Github/Design-Patterns-C/Composite/composite.c"
 },
 {
   "directory": "/home/bruno/Documents/Github/Design-Patterns-C/build",
-  "command": "/usr/bin/gcc   -Wall -g   -o CMakeFiles/composite.dir/bcircle.c.o   -c /home/bruno/Documents/Github/Design-Patterns-C/bcircle.c",
-  "file": "/home/bruno/Documents/Github/Design-Patterns-C/bcircle.c"
+  "command": "/usr/bin/gcc   -Wall -g   -o CMakeFiles/composite.dir/bcircle.c.o   -c /home/bruno/Documents/Github/Design-Patterns-C/Composite/bcircle.c",
+  "file": "/home/bruno/Documents/Github/Design-Patterns-C/Composite/bcircle.c"
 },
 {
   "directory": "/home/bruno/Documents/Github/Design-Patterns-C/build",
-  "command": "/usr/bin/gcc   -Wall -g   -o CMakeFiles/composite.dir/bwindow.c.o   -c /home/bruno/Documents/Github/Design-Patterns-C/bwindow.c",
-  "file": "/home/bruno/Documents/Github/Design-Patterns-C/bwindow.c"
+  "command": "/usr/bin/gcc   -Wall -g   -o CMakeFiles/composite.dir/bwindow.c.o   -c /home/bruno/Documents/Github/Design-Patterns-C/Composite/bwindow.c",
+  "file": "/home/bruno/Documents/Github/Design-Patterns-C/Composite/bwindow.c"
 },
 {
   "directory": "/home/bruno/Documents/Github/Design-Patterns-C/build/blib",
-  "command": "/usr/bin/gcc   -Wall -g   -o CMakeFiles/blib.dir/blist.c.o   -c /home/bruno/Documents/Github/Design-Patterns-C/blib/blist.c",
-  "file": "/home/bruno/Documents/Github/Design-Patterns-C/blib/blist.c"
+  "command": "/usr/bin/gcc   -Wall -g   -o CMakeFiles/blib.dir/blist.c.o   -c /home/bruno/Documents/Github/Design-Patterns-C/Composite/blib/blist.c",
+  "file": "/home/bruno/Documents/Github/Design-Patterns-C/Composite/blib/blist.c"
 },
 {
   "directory": "/home/bruno/Documents/Github/Design-Patterns-C/build/blib",
-  "command": "/usr/bin/gcc   -Wall -g   -o CMakeFiles/blib.dir/bobject.c.o   -c /home/bruno/Documents/Github/Design-Patterns-C/blib/bobject.c",
-  "file": "/home/bruno/Documents/Github/Design-Patterns-C/blib/bobject.c"
+  "command": "/usr/bin/gcc   -Wall -g   -o CMakeFiles/blib.dir/bobject.c.o   -c /home/bruno/Documents/Github/Design-Patterns-C/Composite/blib/bobject.c",
+  "file": "/home/bruno/Documents/Github/Design-Patterns-C/Composite/blib/bobject.c"
 },
 {
   "directory": "/home/bruno/Documents/Github/Design-Patterns-C/build/blib",
-  "command": "/usr/bin/gcc   -Wall -g   -o CMakeFiles/blib.dir/btype.c.o   -c /home/bruno/Documents/Github/Design-Patterns-C/blib/btype.c",
-  "file": "/home/bruno/Documents/Github/Design-Patterns-C/blib/btype.c"
+  "command": "/usr/bin/gcc   -Wall -g   -o CMakeFiles/blib.dir/btype.c.o   -c /home/bruno/Documents/Github/Design-Patterns-C/Composite/blib/btype.c",
+  "file": "/home/bruno/Documents/Github/Design-Patterns-C/Composite/blib/btype.c"
 },
 {
   "directory": "/home/bruno/Documents/Github/Design-Patterns-C/build/blib",
-  "command": "/usr/bin/gcc   -Wall -g   -o CMakeFiles/blib.dir/debug.c.o   -c /home/bruno/Documents/Github/Design-Patterns-C/blib/debug.c",
-  "file": "/home/bruno/Documents/Github/Design-Patterns-C/blib/debug.c"
+  "command": "/usr/bin/gcc   -Wall -g   -o CMakeFiles/blib.dir/debug.c.o   -c /home/bruno/Documents/Github/Design-Patterns-C/Composite/blib/debug.c",
+  "file": "/home/bruno/Documents/Github/Design-Patterns-C/Composite/blib/debug.c"
 }
 ]
