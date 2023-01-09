@@ -76,85 +76,85 @@ CMakeFiles/decorator.dir/baseenemy.c.o: CMakeFiles/decorator.dir/flags.make
 CMakeFiles/decorator.dir/baseenemy.c.o: ../baseenemy.c
 CMakeFiles/decorator.dir/baseenemy.c.o: CMakeFiles/decorator.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bleppe/Documents/Github/Design-Patterns-C/Decorator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/decorator.dir/baseenemy.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/decorator.dir/baseenemy.c.o -MF CMakeFiles/decorator.dir/baseenemy.c.o.d -o CMakeFiles/decorator.dir/baseenemy.c.o -c /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/baseenemy.c
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/decorator.dir/baseenemy.c.o -MF CMakeFiles/decorator.dir/baseenemy.c.o.d -o CMakeFiles/decorator.dir/baseenemy.c.o -c /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/baseenemy.c
 
 CMakeFiles/decorator.dir/baseenemy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/decorator.dir/baseenemy.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/baseenemy.c > CMakeFiles/decorator.dir/baseenemy.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/baseenemy.c > CMakeFiles/decorator.dir/baseenemy.c.i
 
 CMakeFiles/decorator.dir/baseenemy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/decorator.dir/baseenemy.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/baseenemy.c -o CMakeFiles/decorator.dir/baseenemy.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/baseenemy.c -o CMakeFiles/decorator.dir/baseenemy.c.s
 
 CMakeFiles/decorator.dir/decorator.c.o: CMakeFiles/decorator.dir/flags.make
 CMakeFiles/decorator.dir/decorator.c.o: ../decorator.c
 CMakeFiles/decorator.dir/decorator.c.o: CMakeFiles/decorator.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bleppe/Documents/Github/Design-Patterns-C/Decorator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/decorator.dir/decorator.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/decorator.dir/decorator.c.o -MF CMakeFiles/decorator.dir/decorator.c.o.d -o CMakeFiles/decorator.dir/decorator.c.o -c /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/decorator.c
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/decorator.dir/decorator.c.o -MF CMakeFiles/decorator.dir/decorator.c.o.d -o CMakeFiles/decorator.dir/decorator.c.o -c /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/decorator.c
 
 CMakeFiles/decorator.dir/decorator.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/decorator.dir/decorator.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/decorator.c > CMakeFiles/decorator.dir/decorator.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/decorator.c > CMakeFiles/decorator.dir/decorator.c.i
 
 CMakeFiles/decorator.dir/decorator.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/decorator.dir/decorator.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/decorator.c -o CMakeFiles/decorator.dir/decorator.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/decorator.c -o CMakeFiles/decorator.dir/decorator.c.s
 
 CMakeFiles/decorator.dir/ienemy.c.o: CMakeFiles/decorator.dir/flags.make
 CMakeFiles/decorator.dir/ienemy.c.o: ../ienemy.c
 CMakeFiles/decorator.dir/ienemy.c.o: CMakeFiles/decorator.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bleppe/Documents/Github/Design-Patterns-C/Decorator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/decorator.dir/ienemy.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/decorator.dir/ienemy.c.o -MF CMakeFiles/decorator.dir/ienemy.c.o.d -o CMakeFiles/decorator.dir/ienemy.c.o -c /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/ienemy.c
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/decorator.dir/ienemy.c.o -MF CMakeFiles/decorator.dir/ienemy.c.o.d -o CMakeFiles/decorator.dir/ienemy.c.o -c /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/ienemy.c
 
 CMakeFiles/decorator.dir/ienemy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/decorator.dir/ienemy.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/ienemy.c > CMakeFiles/decorator.dir/ienemy.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/ienemy.c > CMakeFiles/decorator.dir/ienemy.c.i
 
 CMakeFiles/decorator.dir/ienemy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/decorator.dir/ienemy.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/ienemy.c -o CMakeFiles/decorator.dir/ienemy.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/ienemy.c -o CMakeFiles/decorator.dir/ienemy.c.s
 
 CMakeFiles/decorator.dir/enemydecorator.c.o: CMakeFiles/decorator.dir/flags.make
 CMakeFiles/decorator.dir/enemydecorator.c.o: ../enemydecorator.c
 CMakeFiles/decorator.dir/enemydecorator.c.o: CMakeFiles/decorator.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bleppe/Documents/Github/Design-Patterns-C/Decorator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/decorator.dir/enemydecorator.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/decorator.dir/enemydecorator.c.o -MF CMakeFiles/decorator.dir/enemydecorator.c.o.d -o CMakeFiles/decorator.dir/enemydecorator.c.o -c /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/enemydecorator.c
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/decorator.dir/enemydecorator.c.o -MF CMakeFiles/decorator.dir/enemydecorator.c.o.d -o CMakeFiles/decorator.dir/enemydecorator.c.o -c /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/enemydecorator.c
 
 CMakeFiles/decorator.dir/enemydecorator.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/decorator.dir/enemydecorator.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/enemydecorator.c > CMakeFiles/decorator.dir/enemydecorator.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/enemydecorator.c > CMakeFiles/decorator.dir/enemydecorator.c.i
 
 CMakeFiles/decorator.dir/enemydecorator.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/decorator.dir/enemydecorator.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/enemydecorator.c -o CMakeFiles/decorator.dir/enemydecorator.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/enemydecorator.c -o CMakeFiles/decorator.dir/enemydecorator.c.s
 
 CMakeFiles/decorator.dir/armordecorator.c.o: CMakeFiles/decorator.dir/flags.make
 CMakeFiles/decorator.dir/armordecorator.c.o: ../armordecorator.c
 CMakeFiles/decorator.dir/armordecorator.c.o: CMakeFiles/decorator.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bleppe/Documents/Github/Design-Patterns-C/Decorator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/decorator.dir/armordecorator.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/decorator.dir/armordecorator.c.o -MF CMakeFiles/decorator.dir/armordecorator.c.o.d -o CMakeFiles/decorator.dir/armordecorator.c.o -c /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/armordecorator.c
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/decorator.dir/armordecorator.c.o -MF CMakeFiles/decorator.dir/armordecorator.c.o.d -o CMakeFiles/decorator.dir/armordecorator.c.o -c /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/armordecorator.c
 
 CMakeFiles/decorator.dir/armordecorator.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/decorator.dir/armordecorator.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/armordecorator.c > CMakeFiles/decorator.dir/armordecorator.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/armordecorator.c > CMakeFiles/decorator.dir/armordecorator.c.i
 
 CMakeFiles/decorator.dir/armordecorator.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/decorator.dir/armordecorator.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/armordecorator.c -o CMakeFiles/decorator.dir/armordecorator.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/armordecorator.c -o CMakeFiles/decorator.dir/armordecorator.c.s
 
 CMakeFiles/decorator.dir/shielddecorator.c.o: CMakeFiles/decorator.dir/flags.make
 CMakeFiles/decorator.dir/shielddecorator.c.o: ../shielddecorator.c
 CMakeFiles/decorator.dir/shielddecorator.c.o: CMakeFiles/decorator.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bleppe/Documents/Github/Design-Patterns-C/Decorator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/decorator.dir/shielddecorator.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/decorator.dir/shielddecorator.c.o -MF CMakeFiles/decorator.dir/shielddecorator.c.o.d -o CMakeFiles/decorator.dir/shielddecorator.c.o -c /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/shielddecorator.c
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/decorator.dir/shielddecorator.c.o -MF CMakeFiles/decorator.dir/shielddecorator.c.o.d -o CMakeFiles/decorator.dir/shielddecorator.c.o -c /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/shielddecorator.c
 
 CMakeFiles/decorator.dir/shielddecorator.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/decorator.dir/shielddecorator.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/shielddecorator.c > CMakeFiles/decorator.dir/shielddecorator.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/shielddecorator.c > CMakeFiles/decorator.dir/shielddecorator.c.i
 
 CMakeFiles/decorator.dir/shielddecorator.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/decorator.dir/shielddecorator.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/shielddecorator.c -o CMakeFiles/decorator.dir/shielddecorator.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/shielddecorator.c -o CMakeFiles/decorator.dir/shielddecorator.c.s
 
 # Object files for target decorator
 decorator_OBJECTS = \

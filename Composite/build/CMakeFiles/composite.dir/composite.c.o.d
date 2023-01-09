@@ -1,6 +1,11 @@
-CMakeFiles/decorator.dir/decorator.c.o: \
- /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/decorator.c \
- /usr/include/stdc-predef.h /usr/include/stdio.h \
+CMakeFiles/composite.dir/composite.c.o: \
+ /home/bleppe/Documents/Github/Design-Patterns-C/Composite/composite.c \
+ /usr/include/stdc-predef.h \
+ /home/bleppe/Documents/Github/Design-Patterns-C/Composite/bdot.h \
+ /home/bleppe/Documents/Github/Design-Patterns-C/Composite/../blib/blib/bobject.h \
+ /home/bleppe/Documents/Github/Design-Patterns-C/Composite/../blib/blib/btype.h \
+ /home/bleppe/Documents/Github/Design-Patterns-C/Composite/../blib/blib/debug.h \
+ /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -23,16 +28,12 @@ CMakeFiles/decorator.dir/decorator.c.o: \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
- /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/ienemy.h \
- /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/../blib/blib/bobject.h \
- /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/../blib/blib/btype.h \
- /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/../blib/blib/debug.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/../blib/blib/balloc.h \
+ /home/bleppe/Documents/Github/Design-Patterns-C/Composite/../blib/blib/balloc.h \
  /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
  /usr/include/x86_64-linux-gnu/sys/types.h \
@@ -57,7 +58,5 @@ CMakeFiles/decorator.dir/decorator.c.o: \
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/baseenemy.h \
- /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/armordecorator.h \
- /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/enemydecorator.h \
- /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/shielddecorator.h
+ /home/bleppe/Documents/Github/Design-Patterns-C/Composite/bcircle.h \
+ /home/bleppe/Documents/Github/Design-Patterns-C/Composite/bwindow.h

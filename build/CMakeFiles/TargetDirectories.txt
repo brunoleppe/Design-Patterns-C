@@ -1,6 +1,0 @@
-/home/bruno/Documents/Github/Design-Patterns-C/build/CMakeFiles/edit_cache.dir
-/home/bruno/Documents/Github/Design-Patterns-C/build/CMakeFiles/rebuild_cache.dir
-/home/bruno/Documents/Github/Design-Patterns-C/build/CMakeFiles/composite.dir
-/home/bruno/Documents/Github/Design-Patterns-C/build/blib/CMakeFiles/rebuild_cache.dir
-/home/bruno/Documents/Github/Design-Patterns-C/build/blib/CMakeFiles/edit_cache.dir
-/home/bruno/Documents/Github/Design-Patterns-C/build/blib/CMakeFiles/blib.dir

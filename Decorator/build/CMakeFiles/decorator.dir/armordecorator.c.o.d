@@ -3,9 +3,9 @@ CMakeFiles/decorator.dir/armordecorator.c.o: \
  /usr/include/stdc-predef.h \
  /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/armordecorator.h \
  /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/enemydecorator.h \
- /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/blib/bobject.h \
- /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/blib/btype.h \
- /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/blib/debug.h \
+ /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/../blib/blib/bobject.h \
+ /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/../blib/blib/btype.h \
+ /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/../blib/blib/debug.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -34,7 +34,7 @@ CMakeFiles/decorator.dir/armordecorator.c.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/blib/balloc.h \
+ /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/../blib/blib/balloc.h \
  /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
  /usr/include/x86_64-linux-gnu/sys/types.h \

@@ -1,23 +1,22 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "C"
   )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_C
-  "/home/bruno/Documents/Github/Design-Patterns-C/Composite Pattern/bcircle.c" "/home/bruno/Documents/Github/Design-Patterns-C/Composite Pattern/build/CMakeFiles/composite.dir/bcircle.c.o"
-  "/home/bruno/Documents/Github/Design-Patterns-C/Composite Pattern/bdot.c" "/home/bruno/Documents/Github/Design-Patterns-C/Composite Pattern/build/CMakeFiles/composite.dir/bdot.c.o"
-  "/home/bruno/Documents/Github/Design-Patterns-C/Composite Pattern/bwindow.c" "/home/bruno/Documents/Github/Design-Patterns-C/Composite Pattern/build/CMakeFiles/composite.dir/bwindow.c.o"
-  "/home/bruno/Documents/Github/Design-Patterns-C/Composite Pattern/composite.c" "/home/bruno/Documents/Github/Design-Patterns-C/Composite Pattern/build/CMakeFiles/composite.dir/composite.c.o"
-  )
-set(CMAKE_C_COMPILER_ID "GNU")
 
-# The include file search paths:
-set(CMAKE_C_TARGET_INCLUDE_PATH
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/bleppe/Documents/Github/Design-Patterns-C/Composite/bcircle.c" "CMakeFiles/composite.dir/bcircle.c.o" "gcc" "CMakeFiles/composite.dir/bcircle.c.o.d"
+  "/home/bleppe/Documents/Github/Design-Patterns-C/Composite/bdot.c" "CMakeFiles/composite.dir/bdot.c.o" "gcc" "CMakeFiles/composite.dir/bdot.c.o.d"
+  "/home/bleppe/Documents/Github/Design-Patterns-C/Composite/bwindow.c" "CMakeFiles/composite.dir/bwindow.c.o" "gcc" "CMakeFiles/composite.dir/bwindow.c.o.d"
+  "/home/bleppe/Documents/Github/Design-Patterns-C/Composite/composite.c" "CMakeFiles/composite.dir/composite.c.o" "gcc" "CMakeFiles/composite.dir/composite.c.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/bruno/Documents/Github/Design-Patterns-C/Composite Pattern/build/blib/CMakeFiles/blib.dir/DependInfo.cmake"
+  "/home/bleppe/Documents/Github/Design-Patterns-C/Composite/build/blib/CMakeFiles/blib.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
