@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/bruno/Documents/Github/Design-Patterns-C/Decorator/blib/balloc.h
+stddef.h
+-
+stdlib.h
+-
+stdlib.h
+-
+
+/home/bruno/Documents/Github/Design-Patterns-C/Decorator/blib/btype.c
+btype.h
+/home/bruno/Documents/Github/Design-Patterns-C/Decorator/blib/btype.h
+string.h
+-
+stdio.h
+-
+stdarg.h
+-
+
+/home/bruno/Documents/Github/Design-Patterns-C/Decorator/blib/btype.h
+debug.h
+/home/bruno/Documents/Github/Design-Patterns-C/Decorator/blib/debug.h
+stddef.h
+-
+stdbool.h
+-
+stdint.h
+-
+balloc.h
+/home/bruno/Documents/Github/Design-Patterns-C/Decorator/blib/balloc.h
+
+/home/bruno/Documents/Github/Design-Patterns-C/Decorator/blib/debug.h
+stdio.h
+-
+

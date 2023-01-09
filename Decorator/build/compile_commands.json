@@ -1,0 +1,52 @@
+[
+{
+  "directory": "/home/bruno/Documents/Github/Design-Patterns-C/Decorator/build",
+  "command": "/usr/bin/gcc   -Wall -g   -o CMakeFiles/decorator.dir/baseenemy.c.o   -c /home/bruno/Documents/Github/Design-Patterns-C/Decorator/baseenemy.c",
+  "file": "/home/bruno/Documents/Github/Design-Patterns-C/Decorator/baseenemy.c"
+},
+{
+  "directory": "/home/bruno/Documents/Github/Design-Patterns-C/Decorator/build",
+  "command": "/usr/bin/gcc   -Wall -g   -o CMakeFiles/decorator.dir/decorator.c.o   -c /home/bruno/Documents/Github/Design-Patterns-C/Decorator/decorator.c",
+  "file": "/home/bruno/Documents/Github/Design-Patterns-C/Decorator/decorator.c"
+},
+{
+  "directory": "/home/bruno/Documents/Github/Design-Patterns-C/Decorator/build",
+  "command": "/usr/bin/gcc   -Wall -g   -o CMakeFiles/decorator.dir/ienemy.c.o   -c /home/bruno/Documents/Github/Design-Patterns-C/Decorator/ienemy.c",
+  "file": "/home/bruno/Documents/Github/Design-Patterns-C/Decorator/ienemy.c"
+},
+{
+  "directory": "/home/bruno/Documents/Github/Design-Patterns-C/Decorator/build",
+  "command": "/usr/bin/gcc   -Wall -g   -o CMakeFiles/decorator.dir/enemydecorator.c.o   -c /home/bruno/Documents/Github/Design-Patterns-C/Decorator/enemydecorator.c",
+  "file": "/home/bruno/Documents/Github/Design-Patterns-C/Decorator/enemydecorator.c"
+},
+{
+  "directory": "/home/bruno/Documents/Github/Design-Patterns-C/Decorator/build",
+  "command": "/usr/bin/gcc   -Wall -g   -o CMakeFiles/decorator.dir/armordecorator.c.o   -c /home/bruno/Documents/Github/Design-Patterns-C/Decorator/armordecorator.c",
+  "file": "/home/bruno/Documents/Github/Design-Patterns-C/Decorator/armordecorator.c"
+},
+{
+  "directory": "/home/bruno/Documents/Github/Design-Patterns-C/Decorator/build",
+  "command": "/usr/bin/gcc   -Wall -g   -o CMakeFiles/decorator.dir/shielddecorator.c.o   -c /home/bruno/Documents/Github/Design-Patterns-C/Decorator/shielddecorator.c",
+  "file": "/home/bruno/Documents/Github/Design-Patterns-C/Decorator/shielddecorator.c"
+},
+{
+  "directory": "/home/bruno/Documents/Github/Design-Patterns-C/Decorator/build/blib",
+  "command": "/usr/bin/gcc   -Wall -g   -o CMakeFiles/blib.dir/blist.c.o   -c /home/bruno/Documents/Github/Design-Patterns-C/Decorator/blib/blist.c",
+  "file": "/home/bruno/Documents/Github/Design-Patterns-C/Decorator/blib/blist.c"
+},
+{
+  "directory": "/home/bruno/Documents/Github/Design-Patterns-C/Decorator/build/blib",
+  "command": "/usr/bin/gcc   -Wall -g   -o CMakeFiles/blib.dir/bobject.c.o   -c /home/bruno/Documents/Github/Design-Patterns-C/Decorator/blib/bobject.c",
+  "file": "/home/bruno/Documents/Github/Design-Patterns-C/Decorator/blib/bobject.c"
+},
+{
+  "directory": "/home/bruno/Documents/Github/Design-Patterns-C/Decorator/build/blib",
+  "command": "/usr/bin/gcc   -Wall -g   -o CMakeFiles/blib.dir/btype.c.o   -c /home/bruno/Documents/Github/Design-Patterns-C/Decorator/blib/btype.c",
+  "file": "/home/bruno/Documents/Github/Design-Patterns-C/Decorator/blib/btype.c"
+},
+{
+  "directory": "/home/bruno/Documents/Github/Design-Patterns-C/Decorator/build/blib",
+  "command": "/usr/bin/gcc   -Wall -g   -o CMakeFiles/blib.dir/debug.c.o   -c /home/bruno/Documents/Github/Design-Patterns-C/Decorator/blib/debug.c",
+  "file": "/home/bruno/Documents/Github/Design-Patterns-C/Decorator/blib/debug.c"
+}
+]

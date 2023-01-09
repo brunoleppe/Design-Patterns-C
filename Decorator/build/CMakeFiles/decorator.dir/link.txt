@@ -1,0 +1,1 @@
+/usr/bin/gcc -Wall -g   CMakeFiles/decorator.dir/baseenemy.c.o CMakeFiles/decorator.dir/decorator.c.o CMakeFiles/decorator.dir/ienemy.c.o CMakeFiles/decorator.dir/enemydecorator.c.o CMakeFiles/decorator.dir/armordecorator.c.o CMakeFiles/decorator.dir/shielddecorator.c.o  -o decorator  blib/libblib.a 
