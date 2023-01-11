@@ -9,7 +9,7 @@ set(SOURCES
     bwindow.c
 )
 
-set(BOBJECT_DIRECTORY ../blib)
+set(BOBJECT_DIRECTORY ../bObject)
 
 set(CMAKE_C_FLAGS "-Wall")
 

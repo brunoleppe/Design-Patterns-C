@@ -181,6 +181,30 @@ bobject.c.s:
 	cd /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/build && $(MAKE) $(MAKESILENT) -f blib/CMakeFiles/blib.dir/build.make blib/CMakeFiles/blib.dir/bobject.c.s
 .PHONY : bobject.c.s
 
+bqueue.o: bqueue.c.o
+.PHONY : bqueue.o
+
+# target to build an object file
+bqueue.c.o:
+	cd /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/build && $(MAKE) $(MAKESILENT) -f blib/CMakeFiles/blib.dir/build.make blib/CMakeFiles/blib.dir/bqueue.c.o
+.PHONY : bqueue.c.o
+
+bqueue.i: bqueue.c.i
+.PHONY : bqueue.i
+
+# target to preprocess a source file
+bqueue.c.i:
+	cd /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/build && $(MAKE) $(MAKESILENT) -f blib/CMakeFiles/blib.dir/build.make blib/CMakeFiles/blib.dir/bqueue.c.i
+.PHONY : bqueue.c.i
+
+bqueue.s: bqueue.c.s
+.PHONY : bqueue.s
+
+# target to generate assembly for a file
+bqueue.c.s:
+	cd /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/build && $(MAKE) $(MAKESILENT) -f blib/CMakeFiles/blib.dir/build.make blib/CMakeFiles/blib.dir/bqueue.c.s
+.PHONY : bqueue.c.s
+
 btype.o: btype.c.o
 .PHONY : btype.o
 
@@ -244,6 +268,9 @@ help:
 	@echo "... bobject.o"
 	@echo "... bobject.i"
 	@echo "... bobject.s"
+	@echo "... bqueue.o"
+	@echo "... bqueue.i"
+	@echo "... bqueue.s"
 	@echo "... btype.o"
 	@echo "... btype.i"
 	@echo "... btype.s"

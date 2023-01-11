@@ -3,9 +3,9 @@ CMakeFiles/composite.dir/bwindow.c.o: \
  /usr/include/stdc-predef.h \
  /home/bleppe/Documents/Github/Design-Patterns-C/Composite/bwindow.h \
  /home/bleppe/Documents/Github/Design-Patterns-C/Composite/bdot.h \
- /home/bleppe/Documents/Github/Design-Patterns-C/Composite/../blib/blib/bobject.h \
- /home/bleppe/Documents/Github/Design-Patterns-C/Composite/../blib/blib/btype.h \
- /home/bleppe/Documents/Github/Design-Patterns-C/Composite/../blib/blib/debug.h \
+ /home/bleppe/Documents/Github/Design-Patterns-C/Composite/../bObject/blib/bobject.h \
+ /home/bleppe/Documents/Github/Design-Patterns-C/Composite/../bObject/blib/btype.h \
+ /home/bleppe/Documents/Github/Design-Patterns-C/Composite/../bObject/blib/debug.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -34,7 +34,7 @@ CMakeFiles/composite.dir/bwindow.c.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/bleppe/Documents/Github/Design-Patterns-C/Composite/../blib/blib/balloc.h \
+ /home/bleppe/Documents/Github/Design-Patterns-C/Composite/../bObject/blib/balloc.h \
  /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
  /usr/include/x86_64-linux-gnu/sys/types.h \
@@ -59,5 +59,5 @@ CMakeFiles/composite.dir/bwindow.c.o: \
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /home/bleppe/Documents/Github/Design-Patterns-C/Composite/../blib/blib/blist.h \
- /home/bleppe/Documents/Github/Design-Patterns-C/Composite/../blib/blib/bobject.h
+ /home/bleppe/Documents/Github/Design-Patterns-C/Composite/../bObject/blib/blist.h \
+ /home/bleppe/Documents/Github/Design-Patterns-C/Composite/../bObject/blib/bobject.h

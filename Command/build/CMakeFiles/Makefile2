@@ -101,12 +101,12 @@ blib/clean: blib/CMakeFiles/blib.dir/clean
 CMakeFiles/command.dir/all: blib/CMakeFiles/blib.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/command.dir/build.make CMakeFiles/command.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/command.dir/build.make CMakeFiles/command.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bleppe/Documents/Github/Design-Patterns-C/Command/build/CMakeFiles --progress-num=6,7,8,9,10 "Built target command"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bleppe/Documents/Github/Design-Patterns-C/Command/build/CMakeFiles --progress-num=7,8,9,10,11 "Built target command"
 .PHONY : CMakeFiles/command.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/command.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bleppe/Documents/Github/Design-Patterns-C/Command/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bleppe/Documents/Github/Design-Patterns-C/Command/build/CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/command.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bleppe/Documents/Github/Design-Patterns-C/Command/build/CMakeFiles 0
 .PHONY : CMakeFiles/command.dir/rule
@@ -127,12 +127,12 @@ CMakeFiles/command.dir/clean:
 blib/CMakeFiles/blib.dir/all:
 	$(MAKE) $(MAKESILENT) -f blib/CMakeFiles/blib.dir/build.make blib/CMakeFiles/blib.dir/depend
 	$(MAKE) $(MAKESILENT) -f blib/CMakeFiles/blib.dir/build.make blib/CMakeFiles/blib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bleppe/Documents/Github/Design-Patterns-C/Command/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target blib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bleppe/Documents/Github/Design-Patterns-C/Command/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target blib"
 .PHONY : blib/CMakeFiles/blib.dir/all
 
 # Build rule for subdir invocation for target.
 blib/CMakeFiles/blib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bleppe/Documents/Github/Design-Patterns-C/Command/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bleppe/Documents/Github/Design-Patterns-C/Command/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 blib/CMakeFiles/blib.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bleppe/Documents/Github/Design-Patterns-C/Command/build/CMakeFiles 0
 .PHONY : blib/CMakeFiles/blib.dir/rule

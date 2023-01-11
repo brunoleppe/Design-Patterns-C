@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/bleppe/Documents/Github/Design-Patterns-C/Command/../blib
+C_INCLUDES = -I/home/bleppe/Documents/Github/Design-Patterns-C/Command/../bObject
 
 C_FLAGS = -Wall
 

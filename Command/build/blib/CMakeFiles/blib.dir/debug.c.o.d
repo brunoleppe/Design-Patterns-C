@@ -1,7 +1,7 @@
 blib/CMakeFiles/blib.dir/debug.c.o: \
- /home/bleppe/Documents/Github/Design-Patterns-C/blib/blib/debug.c \
+ /home/bleppe/Documents/Github/Design-Patterns-C/bObject/blib/debug.c \
  /usr/include/stdc-predef.h \
- /home/bleppe/Documents/Github/Design-Patterns-C/blib/blib/debug.h \
+ /home/bleppe/Documents/Github/Design-Patterns-C/bObject/blib/debug.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \

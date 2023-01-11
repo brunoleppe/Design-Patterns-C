@@ -1,11 +1,10 @@
-CMakeFiles/decorator.dir/armordecorator.c.o: \
- /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/armordecorator.c \
+blib/CMakeFiles/blib.dir/bqueue.c.o: \
+ /home/bleppe/Documents/Github/Design-Patterns-C/bObject/blib/bqueue.c \
  /usr/include/stdc-predef.h \
- /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/armordecorator.h \
- /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/enemydecorator.h \
- /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/../bObject/blib/bobject.h \
- /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/../bObject/blib/btype.h \
- /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/../bObject/blib/debug.h \
+ /home/bleppe/Documents/Github/Design-Patterns-C/bObject/blib/bqueue.h \
+ /home/bleppe/Documents/Github/Design-Patterns-C/bObject/blib/bobject.h \
+ /home/bleppe/Documents/Github/Design-Patterns-C/bObject/blib/btype.h \
+ /home/bleppe/Documents/Github/Design-Patterns-C/bObject/blib/debug.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -34,7 +33,7 @@ CMakeFiles/decorator.dir/armordecorator.c.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/../bObject/blib/balloc.h \
+ /home/bleppe/Documents/Github/Design-Patterns-C/bObject/blib/balloc.h \
  /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
  /usr/include/x86_64-linux-gnu/sys/types.h \
@@ -58,5 +57,4 @@ CMakeFiles/decorator.dir/armordecorator.c.o: \
  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
- /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/ienemy.h
+ /usr/include/x86_64-linux-gnu/bits/stdlib-float.h

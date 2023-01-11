@@ -4,9 +4,9 @@
 CMakeFiles/command.dir/command.c.o: ../command.c \
   /usr/include/stdc-predef.h \
   ../printcommand.h \
-  /home/bleppe/Documents/Github/Design-Patterns-C/blib/blib/bobject.h \
-  /home/bleppe/Documents/Github/Design-Patterns-C/blib/blib/btype.h \
-  /home/bleppe/Documents/Github/Design-Patterns-C/blib/blib/debug.h \
+  /home/bleppe/Documents/Github/Design-Patterns-C/bObject/blib/bobject.h \
+  /home/bleppe/Documents/Github/Design-Patterns-C/bObject/blib/btype.h \
+  /home/bleppe/Documents/Github/Design-Patterns-C/bObject/blib/debug.h \
   /usr/include/stdio.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/features.h \
@@ -37,7 +37,7 @@ CMakeFiles/command.dir/command.c.o: ../command.c \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /home/bleppe/Documents/Github/Design-Patterns-C/blib/blib/balloc.h \
+  /home/bleppe/Documents/Github/Design-Patterns-C/bObject/blib/balloc.h \
   /usr/include/stdlib.h \
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
@@ -71,9 +71,9 @@ CMakeFiles/command.dir/command.c.o: ../command.c \
 CMakeFiles/command.dir/drawcommand.c.o: ../drawcommand.c \
   /usr/include/stdc-predef.h \
   ../drawcommand.h \
-  /home/bleppe/Documents/Github/Design-Patterns-C/blib/blib/bobject.h \
-  /home/bleppe/Documents/Github/Design-Patterns-C/blib/blib/btype.h \
-  /home/bleppe/Documents/Github/Design-Patterns-C/blib/blib/debug.h \
+  /home/bleppe/Documents/Github/Design-Patterns-C/bObject/blib/bobject.h \
+  /home/bleppe/Documents/Github/Design-Patterns-C/bObject/blib/btype.h \
+  /home/bleppe/Documents/Github/Design-Patterns-C/bObject/blib/debug.h \
   /usr/include/stdio.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/features.h \
@@ -104,7 +104,7 @@ CMakeFiles/command.dir/drawcommand.c.o: ../drawcommand.c \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /home/bleppe/Documents/Github/Design-Patterns-C/blib/blib/balloc.h \
+  /home/bleppe/Documents/Github/Design-Patterns-C/bObject/blib/balloc.h \
   /usr/include/stdlib.h \
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
@@ -137,9 +137,9 @@ CMakeFiles/command.dir/drawcommand.c.o: ../drawcommand.c \
 CMakeFiles/command.dir/icommand.c.o: ../icommand.c \
   /usr/include/stdc-predef.h \
   ../icommand.h \
-  /home/bleppe/Documents/Github/Design-Patterns-C/blib/blib/bobject.h \
-  /home/bleppe/Documents/Github/Design-Patterns-C/blib/blib/btype.h \
-  /home/bleppe/Documents/Github/Design-Patterns-C/blib/blib/debug.h \
+  /home/bleppe/Documents/Github/Design-Patterns-C/bObject/blib/bobject.h \
+  /home/bleppe/Documents/Github/Design-Patterns-C/bObject/blib/btype.h \
+  /home/bleppe/Documents/Github/Design-Patterns-C/bObject/blib/debug.h \
   /usr/include/stdio.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/features.h \
@@ -170,7 +170,7 @@ CMakeFiles/command.dir/icommand.c.o: ../icommand.c \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /home/bleppe/Documents/Github/Design-Patterns-C/blib/blib/balloc.h \
+  /home/bleppe/Documents/Github/Design-Patterns-C/bObject/blib/balloc.h \
   /usr/include/stdlib.h \
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
@@ -202,9 +202,9 @@ CMakeFiles/command.dir/icommand.c.o: ../icommand.c \
 CMakeFiles/command.dir/printcommand.c.o: ../printcommand.c \
   /usr/include/stdc-predef.h \
   ../printcommand.h \
-  /home/bleppe/Documents/Github/Design-Patterns-C/blib/blib/bobject.h \
-  /home/bleppe/Documents/Github/Design-Patterns-C/blib/blib/btype.h \
-  /home/bleppe/Documents/Github/Design-Patterns-C/blib/blib/debug.h \
+  /home/bleppe/Documents/Github/Design-Patterns-C/bObject/blib/bobject.h \
+  /home/bleppe/Documents/Github/Design-Patterns-C/bObject/blib/btype.h \
+  /home/bleppe/Documents/Github/Design-Patterns-C/bObject/blib/debug.h \
   /usr/include/stdio.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/features.h \
@@ -235,7 +235,7 @@ CMakeFiles/command.dir/printcommand.c.o: ../printcommand.c \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /home/bleppe/Documents/Github/Design-Patterns-C/blib/blib/balloc.h \
+  /home/bleppe/Documents/Github/Design-Patterns-C/bObject/blib/balloc.h \
   /usr/include/stdlib.h \
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
@@ -266,11 +266,19 @@ CMakeFiles/command.dir/printcommand.c.o: ../printcommand.c \
   ../icommand.h
 
 
-/usr/include/alloca.h:
+../icommand.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/FILE.h:
 
@@ -302,29 +310,29 @@ CMakeFiles/command.dir/printcommand.c.o: ../printcommand.c \
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
-/usr/include/x86_64-linux-gnu/gnu/stubs.h:
-
-/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
-
-/usr/include/x86_64-linux-gnu/bits/types.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+/home/bleppe/Documents/Github/Design-Patterns-C/bObject/blib/debug.h:
 
 ../command.c:
 
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
 
-/home/bleppe/Documents/Github/Design-Patterns-C/blib/blib/bobject.h:
+/home/bleppe/Documents/Github/Design-Patterns-C/bObject/blib/bobject.h:
 
-../icommand.h:
-
-/home/bleppe/Documents/Github/Design-Patterns-C/blib/blib/btype.h:
-
-/usr/include/stdio.h:
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
 /usr/include/stdlib.h:
 
-/home/bleppe/Documents/Github/Design-Patterns-C/blib/blib/debug.h:
+/usr/include/alloca.h:
+
+/home/bleppe/Documents/Github/Design-Patterns-C/bObject/blib/btype.h:
+
+../drawcommand.c:
+
+/usr/include/x86_64-linux-gnu/sys/select.h:
+
+/usr/include/stdio.h:
+
+/home/bleppe/Documents/Github/Design-Patterns-C/bObject/blib/balloc.h:
 
 ../printcommand.c:
 
@@ -360,10 +368,6 @@ CMakeFiles/command.dir/printcommand.c.o: ../printcommand.c \
 
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
 
-/usr/include/x86_64-linux-gnu/bits/wordsize.h:
-
-/home/bleppe/Documents/Github/Design-Patterns-C/blib/blib/balloc.h:
-
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
 
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
@@ -375,10 +379,6 @@ CMakeFiles/command.dir/printcommand.c.o: ../printcommand.c \
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/endian.h:
-
-../drawcommand.c:
-
-/usr/include/x86_64-linux-gnu/sys/select.h:
 
 /usr/include/x86_64-linux-gnu/bits/select.h:
 

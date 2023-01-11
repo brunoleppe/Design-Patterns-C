@@ -1,4 +1,4 @@
-# Install script for directory: /home/bleppe/Documents/Github/Design-Patterns-C/blib/blib
+# Install script for directory: /home/bleppe/Documents/Github/Design-Patterns-C/bObject/blib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

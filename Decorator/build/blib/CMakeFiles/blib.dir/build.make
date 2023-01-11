@@ -73,67 +73,82 @@ include blib/CMakeFiles/blib.dir/progress.make
 include blib/CMakeFiles/blib.dir/flags.make
 
 blib/CMakeFiles/blib.dir/blist.c.o: blib/CMakeFiles/blib.dir/flags.make
-blib/CMakeFiles/blib.dir/blist.c.o: /home/bleppe/Documents/Github/Design-Patterns-C/blib/blib/blist.c
+blib/CMakeFiles/blib.dir/blist.c.o: /home/bleppe/Documents/Github/Design-Patterns-C/bObject/blib/blist.c
 blib/CMakeFiles/blib.dir/blist.c.o: blib/CMakeFiles/blib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bleppe/Documents/Github/Design-Patterns-C/Decorator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object blib/CMakeFiles/blib.dir/blist.c.o"
-	cd /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/build/blib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT blib/CMakeFiles/blib.dir/blist.c.o -MF CMakeFiles/blib.dir/blist.c.o.d -o CMakeFiles/blib.dir/blist.c.o -c /home/bleppe/Documents/Github/Design-Patterns-C/blib/blib/blist.c
+	cd /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/build/blib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT blib/CMakeFiles/blib.dir/blist.c.o -MF CMakeFiles/blib.dir/blist.c.o.d -o CMakeFiles/blib.dir/blist.c.o -c /home/bleppe/Documents/Github/Design-Patterns-C/bObject/blib/blist.c
 
 blib/CMakeFiles/blib.dir/blist.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blib.dir/blist.c.i"
-	cd /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/build/blib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bleppe/Documents/Github/Design-Patterns-C/blib/blib/blist.c > CMakeFiles/blib.dir/blist.c.i
+	cd /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/build/blib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bleppe/Documents/Github/Design-Patterns-C/bObject/blib/blist.c > CMakeFiles/blib.dir/blist.c.i
 
 blib/CMakeFiles/blib.dir/blist.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blib.dir/blist.c.s"
-	cd /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/build/blib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bleppe/Documents/Github/Design-Patterns-C/blib/blib/blist.c -o CMakeFiles/blib.dir/blist.c.s
+	cd /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/build/blib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bleppe/Documents/Github/Design-Patterns-C/bObject/blib/blist.c -o CMakeFiles/blib.dir/blist.c.s
 
 blib/CMakeFiles/blib.dir/bobject.c.o: blib/CMakeFiles/blib.dir/flags.make
-blib/CMakeFiles/blib.dir/bobject.c.o: /home/bleppe/Documents/Github/Design-Patterns-C/blib/blib/bobject.c
+blib/CMakeFiles/blib.dir/bobject.c.o: /home/bleppe/Documents/Github/Design-Patterns-C/bObject/blib/bobject.c
 blib/CMakeFiles/blib.dir/bobject.c.o: blib/CMakeFiles/blib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bleppe/Documents/Github/Design-Patterns-C/Decorator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object blib/CMakeFiles/blib.dir/bobject.c.o"
-	cd /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/build/blib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT blib/CMakeFiles/blib.dir/bobject.c.o -MF CMakeFiles/blib.dir/bobject.c.o.d -o CMakeFiles/blib.dir/bobject.c.o -c /home/bleppe/Documents/Github/Design-Patterns-C/blib/blib/bobject.c
+	cd /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/build/blib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT blib/CMakeFiles/blib.dir/bobject.c.o -MF CMakeFiles/blib.dir/bobject.c.o.d -o CMakeFiles/blib.dir/bobject.c.o -c /home/bleppe/Documents/Github/Design-Patterns-C/bObject/blib/bobject.c
 
 blib/CMakeFiles/blib.dir/bobject.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blib.dir/bobject.c.i"
-	cd /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/build/blib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bleppe/Documents/Github/Design-Patterns-C/blib/blib/bobject.c > CMakeFiles/blib.dir/bobject.c.i
+	cd /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/build/blib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bleppe/Documents/Github/Design-Patterns-C/bObject/blib/bobject.c > CMakeFiles/blib.dir/bobject.c.i
 
 blib/CMakeFiles/blib.dir/bobject.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blib.dir/bobject.c.s"
-	cd /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/build/blib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bleppe/Documents/Github/Design-Patterns-C/blib/blib/bobject.c -o CMakeFiles/blib.dir/bobject.c.s
+	cd /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/build/blib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bleppe/Documents/Github/Design-Patterns-C/bObject/blib/bobject.c -o CMakeFiles/blib.dir/bobject.c.s
 
 blib/CMakeFiles/blib.dir/btype.c.o: blib/CMakeFiles/blib.dir/flags.make
-blib/CMakeFiles/blib.dir/btype.c.o: /home/bleppe/Documents/Github/Design-Patterns-C/blib/blib/btype.c
+blib/CMakeFiles/blib.dir/btype.c.o: /home/bleppe/Documents/Github/Design-Patterns-C/bObject/blib/btype.c
 blib/CMakeFiles/blib.dir/btype.c.o: blib/CMakeFiles/blib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bleppe/Documents/Github/Design-Patterns-C/Decorator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object blib/CMakeFiles/blib.dir/btype.c.o"
-	cd /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/build/blib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT blib/CMakeFiles/blib.dir/btype.c.o -MF CMakeFiles/blib.dir/btype.c.o.d -o CMakeFiles/blib.dir/btype.c.o -c /home/bleppe/Documents/Github/Design-Patterns-C/blib/blib/btype.c
+	cd /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/build/blib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT blib/CMakeFiles/blib.dir/btype.c.o -MF CMakeFiles/blib.dir/btype.c.o.d -o CMakeFiles/blib.dir/btype.c.o -c /home/bleppe/Documents/Github/Design-Patterns-C/bObject/blib/btype.c
 
 blib/CMakeFiles/blib.dir/btype.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blib.dir/btype.c.i"
-	cd /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/build/blib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bleppe/Documents/Github/Design-Patterns-C/blib/blib/btype.c > CMakeFiles/blib.dir/btype.c.i
+	cd /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/build/blib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bleppe/Documents/Github/Design-Patterns-C/bObject/blib/btype.c > CMakeFiles/blib.dir/btype.c.i
 
 blib/CMakeFiles/blib.dir/btype.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blib.dir/btype.c.s"
-	cd /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/build/blib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bleppe/Documents/Github/Design-Patterns-C/blib/blib/btype.c -o CMakeFiles/blib.dir/btype.c.s
+	cd /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/build/blib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bleppe/Documents/Github/Design-Patterns-C/bObject/blib/btype.c -o CMakeFiles/blib.dir/btype.c.s
 
 blib/CMakeFiles/blib.dir/debug.c.o: blib/CMakeFiles/blib.dir/flags.make
-blib/CMakeFiles/blib.dir/debug.c.o: /home/bleppe/Documents/Github/Design-Patterns-C/blib/blib/debug.c
+blib/CMakeFiles/blib.dir/debug.c.o: /home/bleppe/Documents/Github/Design-Patterns-C/bObject/blib/debug.c
 blib/CMakeFiles/blib.dir/debug.c.o: blib/CMakeFiles/blib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bleppe/Documents/Github/Design-Patterns-C/Decorator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object blib/CMakeFiles/blib.dir/debug.c.o"
-	cd /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/build/blib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT blib/CMakeFiles/blib.dir/debug.c.o -MF CMakeFiles/blib.dir/debug.c.o.d -o CMakeFiles/blib.dir/debug.c.o -c /home/bleppe/Documents/Github/Design-Patterns-C/blib/blib/debug.c
+	cd /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/build/blib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT blib/CMakeFiles/blib.dir/debug.c.o -MF CMakeFiles/blib.dir/debug.c.o.d -o CMakeFiles/blib.dir/debug.c.o -c /home/bleppe/Documents/Github/Design-Patterns-C/bObject/blib/debug.c
 
 blib/CMakeFiles/blib.dir/debug.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blib.dir/debug.c.i"
-	cd /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/build/blib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bleppe/Documents/Github/Design-Patterns-C/blib/blib/debug.c > CMakeFiles/blib.dir/debug.c.i
+	cd /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/build/blib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bleppe/Documents/Github/Design-Patterns-C/bObject/blib/debug.c > CMakeFiles/blib.dir/debug.c.i
 
 blib/CMakeFiles/blib.dir/debug.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blib.dir/debug.c.s"
-	cd /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/build/blib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bleppe/Documents/Github/Design-Patterns-C/blib/blib/debug.c -o CMakeFiles/blib.dir/debug.c.s
+	cd /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/build/blib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bleppe/Documents/Github/Design-Patterns-C/bObject/blib/debug.c -o CMakeFiles/blib.dir/debug.c.s
+
+blib/CMakeFiles/blib.dir/bqueue.c.o: blib/CMakeFiles/blib.dir/flags.make
+blib/CMakeFiles/blib.dir/bqueue.c.o: /home/bleppe/Documents/Github/Design-Patterns-C/bObject/blib/bqueue.c
+blib/CMakeFiles/blib.dir/bqueue.c.o: blib/CMakeFiles/blib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bleppe/Documents/Github/Design-Patterns-C/Decorator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object blib/CMakeFiles/blib.dir/bqueue.c.o"
+	cd /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/build/blib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT blib/CMakeFiles/blib.dir/bqueue.c.o -MF CMakeFiles/blib.dir/bqueue.c.o.d -o CMakeFiles/blib.dir/bqueue.c.o -c /home/bleppe/Documents/Github/Design-Patterns-C/bObject/blib/bqueue.c
+
+blib/CMakeFiles/blib.dir/bqueue.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blib.dir/bqueue.c.i"
+	cd /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/build/blib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bleppe/Documents/Github/Design-Patterns-C/bObject/blib/bqueue.c > CMakeFiles/blib.dir/bqueue.c.i
+
+blib/CMakeFiles/blib.dir/bqueue.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blib.dir/bqueue.c.s"
+	cd /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/build/blib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bleppe/Documents/Github/Design-Patterns-C/bObject/blib/bqueue.c -o CMakeFiles/blib.dir/bqueue.c.s
 
 # Object files for target blib
 blib_OBJECTS = \
 "CMakeFiles/blib.dir/blist.c.o" \
 "CMakeFiles/blib.dir/bobject.c.o" \
 "CMakeFiles/blib.dir/btype.c.o" \
-"CMakeFiles/blib.dir/debug.c.o"
+"CMakeFiles/blib.dir/debug.c.o" \
+"CMakeFiles/blib.dir/bqueue.c.o"
 
 # External object files for target blib
 blib_EXTERNAL_OBJECTS =
@@ -142,9 +157,10 @@ blib/libblib.a: blib/CMakeFiles/blib.dir/blist.c.o
 blib/libblib.a: blib/CMakeFiles/blib.dir/bobject.c.o
 blib/libblib.a: blib/CMakeFiles/blib.dir/btype.c.o
 blib/libblib.a: blib/CMakeFiles/blib.dir/debug.c.o
+blib/libblib.a: blib/CMakeFiles/blib.dir/bqueue.c.o
 blib/libblib.a: blib/CMakeFiles/blib.dir/build.make
 blib/libblib.a: blib/CMakeFiles/blib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bleppe/Documents/Github/Design-Patterns-C/Decorator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C static library libblib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bleppe/Documents/Github/Design-Patterns-C/Decorator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C static library libblib.a"
 	cd /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/build/blib && $(CMAKE_COMMAND) -P CMakeFiles/blib.dir/cmake_clean_target.cmake
 	cd /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/build/blib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/blib.dir/link.txt --verbose=$(VERBOSE)
 
@@ -157,6 +173,6 @@ blib/CMakeFiles/blib.dir/clean:
 .PHONY : blib/CMakeFiles/blib.dir/clean
 
 blib/CMakeFiles/blib.dir/depend:
-	cd /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bleppe/Documents/Github/Design-Patterns-C/Decorator /home/bleppe/Documents/Github/Design-Patterns-C/blib/blib /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/build /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/build/blib /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/build/blib/CMakeFiles/blib.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bleppe/Documents/Github/Design-Patterns-C/Decorator /home/bleppe/Documents/Github/Design-Patterns-C/bObject/blib /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/build /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/build/blib /home/bleppe/Documents/Github/Design-Patterns-C/Decorator/build/blib/CMakeFiles/blib.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : blib/CMakeFiles/blib.dir/depend
 

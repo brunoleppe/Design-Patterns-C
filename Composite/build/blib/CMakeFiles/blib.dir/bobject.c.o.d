@@ -1,9 +1,9 @@
 blib/CMakeFiles/blib.dir/bobject.c.o: \
- /home/bleppe/Documents/Github/Design-Patterns-C/blib/blib/bobject.c \
+ /home/bleppe/Documents/Github/Design-Patterns-C/bObject/blib/bobject.c \
  /usr/include/stdc-predef.h \
- /home/bleppe/Documents/Github/Design-Patterns-C/blib/blib/bobject.h \
- /home/bleppe/Documents/Github/Design-Patterns-C/blib/blib/btype.h \
- /home/bleppe/Documents/Github/Design-Patterns-C/blib/blib/debug.h \
+ /home/bleppe/Documents/Github/Design-Patterns-C/bObject/blib/bobject.h \
+ /home/bleppe/Documents/Github/Design-Patterns-C/bObject/blib/btype.h \
+ /home/bleppe/Documents/Github/Design-Patterns-C/bObject/blib/debug.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -32,7 +32,7 @@ blib/CMakeFiles/blib.dir/bobject.c.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/bleppe/Documents/Github/Design-Patterns-C/blib/blib/balloc.h \
+ /home/bleppe/Documents/Github/Design-Patterns-C/bObject/blib/balloc.h \
  /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
  /usr/include/x86_64-linux-gnu/sys/types.h \
