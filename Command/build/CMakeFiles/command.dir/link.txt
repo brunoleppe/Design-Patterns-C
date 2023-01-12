@@ -1,1 +1,1 @@
-/usr/bin/cc -Wall CMakeFiles/command.dir/command.c.o CMakeFiles/command.dir/icommand.c.o CMakeFiles/command.dir/printcommand.c.o CMakeFiles/command.dir/drawcommand.c.o -o command  blib/libblib.a 
+/usr/bin/cc -Wall   CMakeFiles/command.dir/command.c.o CMakeFiles/command.dir/icommand.c.o CMakeFiles/command.dir/printcommand.c.o CMakeFiles/command.dir/drawcommand.c.o  -o command  blib/libblib.a 

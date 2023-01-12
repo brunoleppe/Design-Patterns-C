@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/bruno/Documents/Github/Design-Patterns-C/bObject/blib/balloc.h
+stddef.h
+-
+stdlib.h
+-
+stdlib.h
+-
+
+/home/bruno/Documents/Github/Design-Patterns-C/bObject/blib/bobject.h
+btype.h
+/home/bruno/Documents/Github/Design-Patterns-C/bObject/blib/btype.h
+
+/home/bruno/Documents/Github/Design-Patterns-C/bObject/blib/bqueue.c
+bqueue.h
+/home/bruno/Documents/Github/Design-Patterns-C/bObject/blib/bqueue.h
+stdio.h
+-
+
+/home/bruno/Documents/Github/Design-Patterns-C/bObject/blib/bqueue.h
+bobject.h
+/home/bruno/Documents/Github/Design-Patterns-C/bObject/blib/bobject.h
+
+/home/bruno/Documents/Github/Design-Patterns-C/bObject/blib/btype.h
+debug.h
+/home/bruno/Documents/Github/Design-Patterns-C/bObject/blib/debug.h
+stddef.h
+-
+stdbool.h
+-
+stdint.h
+-
+balloc.h
+/home/bruno/Documents/Github/Design-Patterns-C/bObject/blib/balloc.h
+
+/home/bruno/Documents/Github/Design-Patterns-C/bObject/blib/debug.h
+stdio.h
+-
+

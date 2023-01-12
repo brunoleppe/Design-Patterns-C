@@ -1,3 +1,4 @@
 [submodule "bObject"]
 	path = bObject
 	url = https://github.com/brunoleppe/bObject.git
+	branch = main
