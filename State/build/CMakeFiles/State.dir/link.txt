@@ -1,1 +1,0 @@
-/usr/bin/cc -Wall   CMakeFiles/State.dir/bstate.c.o CMakeFiles/State.dir/endstate.c.o CMakeFiles/State.dir/initstate.c.o CMakeFiles/State.dir/state.c.o  -o State  blib/libblib.a 

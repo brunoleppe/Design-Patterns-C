@@ -1,19 +1,18 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "C"
   )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_C
-  "/home/bruno/Documents/Github/Design-Patterns-C/bObject/blib/blist.c" "/home/bruno/Documents/Github/Design-Patterns-C/State/build/blib/CMakeFiles/blib.dir/blist.c.o"
-  "/home/bruno/Documents/Github/Design-Patterns-C/bObject/blib/bobject.c" "/home/bruno/Documents/Github/Design-Patterns-C/State/build/blib/CMakeFiles/blib.dir/bobject.c.o"
-  "/home/bruno/Documents/Github/Design-Patterns-C/bObject/blib/bqueue.c" "/home/bruno/Documents/Github/Design-Patterns-C/State/build/blib/CMakeFiles/blib.dir/bqueue.c.o"
-  "/home/bruno/Documents/Github/Design-Patterns-C/bObject/blib/btype.c" "/home/bruno/Documents/Github/Design-Patterns-C/State/build/blib/CMakeFiles/blib.dir/btype.c.o"
-  "/home/bruno/Documents/Github/Design-Patterns-C/bObject/blib/debug.c" "/home/bruno/Documents/Github/Design-Patterns-C/State/build/blib/CMakeFiles/blib.dir/debug.c.o"
-  )
-set(CMAKE_C_COMPILER_ID "GNU")
 
-# The include file search paths:
-set(CMAKE_C_TARGET_INCLUDE_PATH
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/bleppe/Documents/Github/Design-Patterns-C/bObject/blib/blist.c" "blib/CMakeFiles/blib.dir/blist.c.o" "gcc" "blib/CMakeFiles/blib.dir/blist.c.o.d"
+  "/home/bleppe/Documents/Github/Design-Patterns-C/bObject/blib/bobject.c" "blib/CMakeFiles/blib.dir/bobject.c.o" "gcc" "blib/CMakeFiles/blib.dir/bobject.c.o.d"
+  "/home/bleppe/Documents/Github/Design-Patterns-C/bObject/blib/bqueue.c" "blib/CMakeFiles/blib.dir/bqueue.c.o" "gcc" "blib/CMakeFiles/blib.dir/bqueue.c.o.d"
+  "/home/bleppe/Documents/Github/Design-Patterns-C/bObject/blib/btype.c" "blib/CMakeFiles/blib.dir/btype.c.o" "gcc" "blib/CMakeFiles/blib.dir/btype.c.o.d"
+  "/home/bleppe/Documents/Github/Design-Patterns-C/bObject/blib/debug.c" "blib/CMakeFiles/blib.dir/debug.c.o" "gcc" "blib/CMakeFiles/blib.dir/debug.c.o.d"
   )
 
 # Targets to which this target links.
