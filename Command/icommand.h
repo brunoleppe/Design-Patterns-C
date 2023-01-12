@@ -14,10 +14,12 @@ B_DECLARE_INTERFACE(ICommand, i_command)
 struct ICommandInterface{
 	/*virual methods*/
 	void (*execute)(ICommand*);
+	void (*undo)(ICommand*);
 };
 
 /*Interface Methods*/
 void i_command_execute(ICommand* self);
+void i_command_undo(ICommand* self);
 
 #ifdef __cplusplus
 }

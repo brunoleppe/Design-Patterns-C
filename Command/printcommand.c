@@ -5,6 +5,8 @@
 
 static void i_command_interface_init(ICommandInterface *iface);
 static void print_command_execute(PrintCommand *self);
+static void print_command_undo(PrintCommand *self);
+
 
 B_DEFINE_TYPE_EXTENDED(PrintCommand, print_command, B_TYPE_OBJECT(),
 	B_IMPLEMENT_INTERFACES(
@@ -16,6 +18,7 @@ static void i_command_interface_init(ICommandInterface *iface)
 {
 	/*Implementation*/
 	iface->execute = (void (*)(ICommand*))print_command_execute;
+	iface->undo = (void (*)(ICommand*))print_command_undo;
 }
 static void print_command_class_initialize(PrintCommandClass *class)
 {
@@ -44,4 +47,9 @@ PrintCommand* print_command_new(void){
 static void print_command_execute(PrintCommand *self)
 {
 	puts("Printing...");
+}
+
+static void print_command_undo(PrintCommand *self)
+{
+	puts("Undoing print...");
 }

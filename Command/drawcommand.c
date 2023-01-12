@@ -5,6 +5,8 @@
 
 static void i_command_interface_init(ICommandInterface *iface);
 static void draw_command_execute(DrawCommand *draw);
+static void draw_command_undo(DrawCommand *draw);
+
 
 B_DEFINE_TYPE_EXTENDED(DrawCommand, draw_command, B_TYPE_OBJECT(),
 	B_IMPLEMENT_INTERFACES(
@@ -16,6 +18,7 @@ static void i_command_interface_init(ICommandInterface *iface)
 {
 	/*Implementation*/
 	iface->execute = (void (*)(ICommand*))draw_command_execute;
+	iface->undo = (void (*)(ICommand*))draw_command_undo;	
 }
 static void draw_command_class_initialize(DrawCommandClass *class)
 {
@@ -44,4 +47,8 @@ DrawCommand* draw_command_new(void){
 static void draw_command_execute(DrawCommand *draw)
 {
 	puts("Drawing...");
+}
+static void draw_command_undo(DrawCommand *draw)
+{
+	puts("Undoing draw...");
 }
