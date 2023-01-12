@@ -1,0 +1,1 @@
+/usr/bin/cc -Wall CMakeFiles/observer.dir/bpublisher.c.o CMakeFiles/observer.dir/bsubscriber.c.o CMakeFiles/observer.dir/iobservable.c.o CMakeFiles/observer.dir/iobserver.c.o CMakeFiles/observer.dir/main.c.o -o observer  blib/libblib.a 
